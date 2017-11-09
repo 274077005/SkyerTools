@@ -14,10 +14,10 @@ spec.social_media_url = "http://weibo.com/"                   #weibo
 spec.platform         = :ios, "8.0"                                     #平台、版本
 spec.source           = { :git => "https://github.com/274077005/SkyerTools.git", :tag => spec.version.to_s }  #代码的git地址以及tag
 spec.source_files     = "SkyerProject/SkyerTools/**/*.{h,m}"        #本地验证这里填  "**/*"  表示当前目录以及子目录的所有文件   如果发布到MonkeyPodSpec需要填写git clone下来的对应的路径
-//进行子目录分层
-s.subspec 'UIButton' do |UIButton|
-    UIButton.source_files = 'SkyerProject/SkyerTools/UIButton/**/*'
-    UIButton.public_header_files = 'SkyerProject/SkyerTools/UIButton/**/*.h'
+#进行子目录分层
+spec.subspec 'UIButton' do |button|
+    button.source_files = 'SkyerProject/SkyerTools/UIButton/**/*'
+    button.public_header_files = 'SkyerProject/SkyerTools/UIButton/**/*.h'
 end
 
 
