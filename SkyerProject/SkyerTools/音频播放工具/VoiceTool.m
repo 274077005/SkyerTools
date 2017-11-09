@@ -7,7 +7,7 @@
 //
 
 #import "VoiceTool.h"
-#import <AVFoundation/AVFoundation.h>
+
 
 @implementation VoiceTool
 {
