@@ -52,6 +52,7 @@
 		B66CBE271FB3EC78003ACC99 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
 		B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
 		B66CBE521FB3ECA5003ACC99 /* SkyerTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyerTools.m; sourceTree = "<group>"; };
+		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 			children = (
 				B65D2D0A1FB2A52E002F6459 /* SkyerProject */,
 				B65D2D091FB2A52E002F6459 /* Products */,
+				B66CBE541FB3F2DB003ACC99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +195,14 @@
 				B66CBE271FB3EC78003ACC99 /* VoiceTool.m */,
 			);
 			path = "音频播放工具";
+			sourceTree = "<group>";
+		};
+		B66CBE541FB3F2DB003ACC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
