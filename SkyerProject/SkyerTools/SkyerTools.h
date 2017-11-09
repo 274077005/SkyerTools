@@ -16,6 +16,3 @@
 #import "SkyerURLSelect.h"
 #import "SkyerGetVisibleViewController.h"
 #import "VoiceTool.h"
-@interface SkyerTools : NSObject
-
-@end

@@ -20,7 +20,6 @@
 		B66CBE2D1FB3EC78003ACC99 /* SkyerURLSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE211FB3EC78003ACC99 /* SkyerURLSelect.m */; };
 		B66CBE2E1FB3EC78003ACC99 /* SkyerGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE241FB3EC78003ACC99 /* SkyerGetVisibleViewController.m */; };
 		B66CBE2F1FB3EC78003ACC99 /* VoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE271FB3EC78003ACC99 /* VoiceTool.m */; };
-		B66CBE531FB3ECA5003ACC99 /* SkyerTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE521FB3ECA5003ACC99 /* SkyerTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		B66CBE261FB3EC78003ACC99 /* VoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceTool.h; sourceTree = "<group>"; };
 		B66CBE271FB3EC78003ACC99 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
 		B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
-		B66CBE521FB3ECA5003ACC99 /* SkyerTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyerTools.m; sourceTree = "<group>"; };
 		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */,
-				B66CBE521FB3ECA5003ACC99 /* SkyerTools.m */,
 				B66CBE0D1FB3EC78003ACC99 /* data数据处理 */,
 				B66CBE101FB3EC78003ACC99 /* NsObject */,
 				B66CBE131FB3EC78003ACC99 /* Singleton */,
@@ -284,7 +281,6 @@
 				B66CBE2C1FB3EC78003ACC99 /* SkDataOperation.m in Sources */,
 				B66CBE2B1FB3EC78003ACC99 /* UIButton+ClickBlock.m in Sources */,
 				B66CBE2E1FB3EC78003ACC99 /* SkyerGetVisibleViewController.m in Sources */,
-				B66CBE531FB3ECA5003ACC99 /* SkyerTools.m in Sources */,
 				B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */,
 				B66CBE2D1FB3EC78003ACC99 /* SkyerURLSelect.m in Sources */,
 			);
