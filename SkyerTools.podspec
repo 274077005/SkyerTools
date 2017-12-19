@@ -12,21 +12,27 @@ spec.requires_arc     = true                                            #ARC
 spec.license          = { :type => "BSD", :file => "LICENSE" }          #License
 spec.author           = { "skyer" => "274077005@qq.com" }               #作者
 spec.social_media_url = "http://weibo.com/"                             #weibo
-spec.platform         = :ios, "9.0"                                     #平台、版本
+spec.platform         = :ios, "8.0"                                     #平台、版本
 spec.source           = { :git => "https://github.com/274077005/SkyerTools.git", :tag => spec.version.to_s }  #代码的git地址以及tag
 
-spec.source_files     = "SkyerProject/SkyerTools/**/*"                  #本地验证这里填  "**/*"  表示当前目录以及子目录的所有文件
+spec.public_header_files = "SkyerProject/SkyerTools/SkyerTools.h"               #需要对外导出的头文件  此处为本地验证
 
-#spec.public_header_files = "SkyerProject/SkyerTools/*.*"               #需要对外导出的头文件  此处为本地验证
 
-spec.frameworks   = 'UIKit','AVFoundation'
-spec.ios.dependency 'MBProgressHUD'
+spec.subspec 'skCategory' do |sk|
+sk.source_files = 'SkyerProject/SkyerTools/skCategory/*.{h,m}'
+sk.public_header_files = 'SkyerProject/SkyerTools/skCategory/*.h'
+sk.frameworks = 'UIKit'
+end
+
+spec.subspec 'skTools' do |sk|
+sk.source_files = 'SkyerProject/SkyerTools/skTools/*.{h,m}'
+sk.public_header_files = 'SkyerProject/SkyerTools/skTools/*.h'
+sk.dependency 'MBProgressHUD'
+sk.frameworks = 'UIKit' ,'AVFoundation'
+end
+
 spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }               #这个必须有，不要修改
 
-
-
-#自己的或者第三方framework,比qqSDK的TencentOpenAPI.framework
-#spec.vendored_frameworks = 'MyFramework.framework','TheirFramework.framework'
 #文件描述详情请打开 http://www.jianshu.com/p/f841e248bc4f
 #更新步骤
 #git tag ‘1.0.0’

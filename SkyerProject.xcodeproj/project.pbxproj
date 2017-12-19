@@ -8,46 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		A1FA57B1AA517FE923914592 /* libPods-SkyerProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */; };
-		B63571831FE8B77700F26023 /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571801FE8B77700F26023 /* SkToast.m */; };
-		B63571841FE8B77700F26023 /* SkyerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571821FE8B77700F26023 /* SkyerHUD.m */; };
-		B635718C1FE8C27200F26023 /* NSString+skStrWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571871FE8C27200F26023 /* NSString+skStrWidth.m */; };
-		B635718D1FE8C27200F26023 /* skClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571891FE8C27200F26023 /* skClassMethod.m */; };
-		B635718E1FE8C27200F26023 /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B635718B1FE8C27200F26023 /* UIView+skBoard.m */; };
 		B63571901FE8C2CD00F26023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B635718F1FE8C2CD00F26023 /* UIKit.framework */; };
-		B635719C1FE8C4AB00F26023 /* SkScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B635719B1FE8C4AB00F26023 /* SkScollPageView.m */; };
-		B63571C11FE8F3EF00F26023 /* CategoryHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571C01FE8F3EF00F26023 /* CategoryHeader.m */; };
+		B63571E91FE9001200F26023 /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571C51FE9001200F26023 /* SkToast.m */; };
+		B63571EA1FE9001200F26023 /* SkyerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571C71FE9001200F26023 /* SkyerHUD.m */; };
+		B63571EB1FE9001200F26023 /* SkScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571CA1FE9001200F26023 /* SkScollPageView.m */; };
+		B63571EC1FE9001200F26023 /* dataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571D11FE9001200F26023 /* dataTool.m */; };
+		B63571ED1FE9001200F26023 /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571D41FE9001200F26023 /* SkDataOperation.m */; };
+		B63571EE1FE9001200F26023 /* skClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571D71FE9001200F26023 /* skClassMethod.m */; };
+		B63571EF1FE9001200F26023 /* SkyerGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571DA1FE9001200F26023 /* SkyerGetVisibleViewController.m */; };
+		B63571F01FE9001200F26023 /* VoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571DD1FE9001200F26023 /* VoiceTool.m */; };
+		B63571F11FE9001200F26023 /* CategoryHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E01FE9001200F26023 /* CategoryHeader.m */; };
+		B63571F21FE9001200F26023 /* NSObject+UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E21FE9001200F26023 /* NSObject+UserData.m */; };
+		B63571F31FE9001200F26023 /* NSString+skStrWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E41FE9001200F26023 /* NSString+skStrWidth.m */; };
+		B63571F41FE9001200F26023 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */; };
+		B63571F51FE9001200F26023 /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E81FE9001200F26023 /* UIView+skBoard.m */; };
 		B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */; };
 		B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0F1FB2A52F002F6459 /* ViewController.m */; };
 		B65D2D131FB2A52F002F6459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D111FB2A52F002F6459 /* Main.storyboard */; };
 		B65D2D151FB2A52F002F6459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D141FB2A52F002F6459 /* Assets.xcassets */; };
 		B65D2D181FB2A52F002F6459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D161FB2A52F002F6459 /* LaunchScreen.storyboard */; };
 		B65D2D1B1FB2A52F002F6459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D1A1FB2A52F002F6459 /* main.m */; };
-		B66CBE281FB3EC78003ACC99 /* dataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE0F1FB3EC78003ACC99 /* dataTool.m */; };
-		B66CBE291FB3EC78003ACC99 /* NSObject+UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE121FB3EC78003ACC99 /* NSObject+UserData.m */; };
-		B66CBE2B1FB3EC78003ACC99 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE191FB3EC78003ACC99 /* UIButton+ClickBlock.m */; };
-		B66CBE2C1FB3EC78003ACC99 /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE1E1FB3EC78003ACC99 /* SkDataOperation.m */; };
-		B66CBE2E1FB3EC78003ACC99 /* SkyerGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE241FB3EC78003ACC99 /* SkyerGetVisibleViewController.m */; };
-		B66CBE2F1FB3EC78003ACC99 /* VoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B66CBE271FB3EC78003ACC99 /* VoiceTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
 		B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
-		B635717F1FE8B77700F26023 /* SkToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkToast.h; sourceTree = "<group>"; };
-		B63571801FE8B77700F26023 /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
-		B63571811FE8B77700F26023 /* SkyerHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerHUD.h; sourceTree = "<group>"; };
-		B63571821FE8B77700F26023 /* SkyerHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerHUD.m; sourceTree = "<group>"; };
-		B63571861FE8C27200F26023 /* NSString+skStrWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+skStrWidth.h"; sourceTree = "<group>"; };
-		B63571871FE8C27200F26023 /* NSString+skStrWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+skStrWidth.m"; sourceTree = "<group>"; };
-		B63571881FE8C27200F26023 /* skClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skClassMethod.h; sourceTree = "<group>"; };
-		B63571891FE8C27200F26023 /* skClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skClassMethod.m; sourceTree = "<group>"; };
-		B635718A1FE8C27200F26023 /* UIView+skBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+skBoard.h"; sourceTree = "<group>"; };
-		B635718B1FE8C27200F26023 /* UIView+skBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+skBoard.m"; sourceTree = "<group>"; };
 		B635718F1FE8C2CD00F26023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B635719A1FE8C4AB00F26023 /* SkScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScollPageView.h; sourceTree = "<group>"; };
-		B635719B1FE8C4AB00F26023 /* SkScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkScollPageView.m; sourceTree = "<group>"; };
-		B63571BF1FE8F3EF00F26023 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
-		B63571C01FE8F3EF00F26023 /* CategoryHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryHeader.m; sourceTree = "<group>"; };
+		B63571C41FE9001200F26023 /* SkToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkToast.h; sourceTree = "<group>"; };
+		B63571C51FE9001200F26023 /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
+		B63571C61FE9001200F26023 /* SkyerHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerHUD.h; sourceTree = "<group>"; };
+		B63571C71FE9001200F26023 /* SkyerHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerHUD.m; sourceTree = "<group>"; };
+		B63571C91FE9001200F26023 /* SkScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScollPageView.h; sourceTree = "<group>"; };
+		B63571CA1FE9001200F26023 /* SkScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkScollPageView.m; sourceTree = "<group>"; };
+		B63571CC1FE9001200F26023 /* SkyerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerSingleton.h; sourceTree = "<group>"; };
+		B63571CE1FE9001200F26023 /* SkyerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerMacro.h; sourceTree = "<group>"; };
+		B63571D01FE9001200F26023 /* dataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataTool.h; sourceTree = "<group>"; };
+		B63571D11FE9001200F26023 /* dataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataTool.m; sourceTree = "<group>"; };
+		B63571D31FE9001200F26023 /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
+		B63571D41FE9001200F26023 /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
+		B63571D61FE9001200F26023 /* skClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skClassMethod.h; sourceTree = "<group>"; };
+		B63571D71FE9001200F26023 /* skClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skClassMethod.m; sourceTree = "<group>"; };
+		B63571D91FE9001200F26023 /* SkyerGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerGetVisibleViewController.h; sourceTree = "<group>"; };
+		B63571DA1FE9001200F26023 /* SkyerGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerGetVisibleViewController.m; sourceTree = "<group>"; };
+		B63571DC1FE9001200F26023 /* VoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceTool.h; sourceTree = "<group>"; };
+		B63571DD1FE9001200F26023 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
+		B63571DF1FE9001200F26023 /* CategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		B63571E01FE9001200F26023 /* CategoryHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryHeader.m; sourceTree = "<group>"; };
+		B63571E11FE9001200F26023 /* NSObject+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserData.h"; sourceTree = "<group>"; };
+		B63571E21FE9001200F26023 /* NSObject+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserData.m"; sourceTree = "<group>"; };
+		B63571E31FE9001200F26023 /* NSString+skStrWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+skStrWidth.h"; sourceTree = "<group>"; };
+		B63571E41FE9001200F26023 /* NSString+skStrWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+skStrWidth.m"; sourceTree = "<group>"; };
+		B63571E51FE9001200F26023 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
+		B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
+		B63571E71FE9001200F26023 /* UIView+skBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+skBoard.h"; sourceTree = "<group>"; };
+		B63571E81FE9001200F26023 /* UIView+skBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+skBoard.m"; sourceTree = "<group>"; };
 		B65D2D081FB2A52E002F6459 /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65D2D0B1FB2A52E002F6459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,20 +72,6 @@
 		B65D2D171FB2A52F002F6459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65D2D191FB2A52F002F6459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65D2D1A1FB2A52F002F6459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B66CBE0E1FB3EC78003ACC99 /* dataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataTool.h; sourceTree = "<group>"; };
-		B66CBE0F1FB3EC78003ACC99 /* dataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataTool.m; sourceTree = "<group>"; };
-		B66CBE111FB3EC78003ACC99 /* NSObject+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserData.h"; sourceTree = "<group>"; };
-		B66CBE121FB3EC78003ACC99 /* NSObject+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserData.m"; sourceTree = "<group>"; };
-		B66CBE141FB3EC78003ACC99 /* SkyerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerSingleton.h; sourceTree = "<group>"; };
-		B66CBE181FB3EC78003ACC99 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
-		B66CBE191FB3EC78003ACC99 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
-		B66CBE1B1FB3EC78003ACC99 /* SkyerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerMacro.h; sourceTree = "<group>"; };
-		B66CBE1D1FB3EC78003ACC99 /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
-		B66CBE1E1FB3EC78003ACC99 /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
-		B66CBE231FB3EC78003ACC99 /* SkyerGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerGetVisibleViewController.h; sourceTree = "<group>"; };
-		B66CBE241FB3EC78003ACC99 /* SkyerGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerGetVisibleViewController.m; sourceTree = "<group>"; };
-		B66CBE261FB3EC78003ACC99 /* VoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceTool.h; sourceTree = "<group>"; };
-		B66CBE271FB3EC78003ACC99 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
 		B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
 		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,50 +90,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B635717E1FE8B77700F26023 /* SKHUD */ = {
+		B63571C21FE9001200F26023 /* skTools */ = {
 			isa = PBXGroup;
 			children = (
-				B635717F1FE8B77700F26023 /* SkToast.h */,
-				B63571801FE8B77700F26023 /* SkToast.m */,
-				B63571811FE8B77700F26023 /* SkyerHUD.h */,
-				B63571821FE8B77700F26023 /* SkyerHUD.m */,
+				B63571C31FE9001200F26023 /* SKHUD */,
+				B63571C81FE9001200F26023 /* 分页菜单 */,
+				B63571CB1FE9001200F26023 /* 单例的宏 */,
+				B63571CD1FE9001200F26023 /* 常用的宏 */,
+				B63571CF1FE9001200F26023 /* 数据协议工具 */,
+				B63571D21FE9001200F26023 /* 数据缓存类 */,
+				B63571D51FE9001200F26023 /* 类方法集合 */,
+				B63571D81FE9001200F26023 /* 获取当前页 */,
+				B63571DB1FE9001200F26023 /* 音频播放工具 */,
+			);
+			path = skTools;
+			sourceTree = "<group>";
+		};
+		B63571C31FE9001200F26023 /* SKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B63571C41FE9001200F26023 /* SkToast.h */,
+				B63571C51FE9001200F26023 /* SkToast.m */,
+				B63571C61FE9001200F26023 /* SkyerHUD.h */,
+				B63571C71FE9001200F26023 /* SkyerHUD.m */,
 			);
 			path = SKHUD;
 			sourceTree = "<group>";
 		};
-		B63571851FE8C27200F26023 /* Category */ = {
+		B63571C81FE9001200F26023 /* 分页菜单 */ = {
 			isa = PBXGroup;
 			children = (
-				B66CBE181FB3EC78003ACC99 /* UIButton+ClickBlock.h */,
-				B66CBE191FB3EC78003ACC99 /* UIButton+ClickBlock.m */,
-				B63571861FE8C27200F26023 /* NSString+skStrWidth.h */,
-				B63571871FE8C27200F26023 /* NSString+skStrWidth.m */,
-				B66CBE111FB3EC78003ACC99 /* NSObject+UserData.h */,
-				B66CBE121FB3EC78003ACC99 /* NSObject+UserData.m */,
-				B635718A1FE8C27200F26023 /* UIView+skBoard.h */,
-				B635718B1FE8C27200F26023 /* UIView+skBoard.m */,
-				B63571BF1FE8F3EF00F26023 /* CategoryHeader.h */,
-				B63571C01FE8F3EF00F26023 /* CategoryHeader.m */,
+				B63571C91FE9001200F26023 /* SkScollPageView.h */,
+				B63571CA1FE9001200F26023 /* SkScollPageView.m */,
 			);
-			path = Category;
+			path = "分页菜单";
 			sourceTree = "<group>";
 		};
-		B63571941FE8C43700F26023 /* 类方法集合 */ = {
+		B63571CB1FE9001200F26023 /* 单例的宏 */ = {
 			isa = PBXGroup;
 			children = (
-				B63571881FE8C27200F26023 /* skClassMethod.h */,
-				B63571891FE8C27200F26023 /* skClassMethod.m */,
+				B63571CC1FE9001200F26023 /* SkyerSingleton.h */,
+			);
+			path = "单例的宏";
+			sourceTree = "<group>";
+		};
+		B63571CD1FE9001200F26023 /* 常用的宏 */ = {
+			isa = PBXGroup;
+			children = (
+				B63571CE1FE9001200F26023 /* SkyerMacro.h */,
+			);
+			path = "常用的宏";
+			sourceTree = "<group>";
+		};
+		B63571CF1FE9001200F26023 /* 数据协议工具 */ = {
+			isa = PBXGroup;
+			children = (
+				B63571D01FE9001200F26023 /* dataTool.h */,
+				B63571D11FE9001200F26023 /* dataTool.m */,
+			);
+			path = "数据协议工具";
+			sourceTree = "<group>";
+		};
+		B63571D21FE9001200F26023 /* 数据缓存类 */ = {
+			isa = PBXGroup;
+			children = (
+				B63571D31FE9001200F26023 /* SkDataOperation.h */,
+				B63571D41FE9001200F26023 /* SkDataOperation.m */,
+			);
+			path = "数据缓存类";
+			sourceTree = "<group>";
+		};
+		B63571D51FE9001200F26023 /* 类方法集合 */ = {
+			isa = PBXGroup;
+			children = (
+				B63571D61FE9001200F26023 /* skClassMethod.h */,
+				B63571D71FE9001200F26023 /* skClassMethod.m */,
 			);
 			path = "类方法集合";
 			sourceTree = "<group>";
 		};
-		B63571991FE8C4AB00F26023 /* 分页菜单 */ = {
+		B63571D81FE9001200F26023 /* 获取当前页 */ = {
 			isa = PBXGroup;
 			children = (
-				B635719A1FE8C4AB00F26023 /* SkScollPageView.h */,
-				B635719B1FE8C4AB00F26023 /* SkScollPageView.m */,
+				B63571D91FE9001200F26023 /* SkyerGetVisibleViewController.h */,
+				B63571DA1FE9001200F26023 /* SkyerGetVisibleViewController.m */,
 			);
-			path = "分页菜单";
+			path = "获取当前页";
+			sourceTree = "<group>";
+		};
+		B63571DB1FE9001200F26023 /* 音频播放工具 */ = {
+			isa = PBXGroup;
+			children = (
+				B63571DC1FE9001200F26023 /* VoiceTool.h */,
+				B63571DD1FE9001200F26023 /* VoiceTool.m */,
+			);
+			path = "音频播放工具";
+			sourceTree = "<group>";
+		};
+		B63571DE1FE9001200F26023 /* skCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B63571DF1FE9001200F26023 /* CategoryHeader.h */,
+				B63571E01FE9001200F26023 /* CategoryHeader.m */,
+				B63571E11FE9001200F26023 /* NSObject+UserData.h */,
+				B63571E21FE9001200F26023 /* NSObject+UserData.m */,
+				B63571E31FE9001200F26023 /* NSString+skStrWidth.h */,
+				B63571E41FE9001200F26023 /* NSString+skStrWidth.m */,
+				B63571E51FE9001200F26023 /* UIButton+ClickBlock.h */,
+				B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */,
+				B63571E71FE9001200F26023 /* UIView+skBoard.h */,
+				B63571E81FE9001200F26023 /* UIView+skBoard.m */,
+			);
+			path = skCategory;
 			sourceTree = "<group>";
 		};
 		B65D2CFF1FB2A52E002F6459 = {
@@ -175,70 +243,10 @@
 			isa = PBXGroup;
 			children = (
 				B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */,
-				B63571991FE8C4AB00F26023 /* 分页菜单 */,
-				B63571941FE8C43700F26023 /* 类方法集合 */,
-				B63571851FE8C27200F26023 /* Category */,
-				B635717E1FE8B77700F26023 /* SKHUD */,
-				B66CBE0D1FB3EC78003ACC99 /* 数据协议工具 */,
-				B66CBE131FB3EC78003ACC99 /* 单例的宏 */,
-				B66CBE1A1FB3EC78003ACC99 /* 常用的宏 */,
-				B66CBE1C1FB3EC78003ACC99 /* 数据缓存类 */,
-				B66CBE221FB3EC78003ACC99 /* 获取当前页 */,
-				B66CBE251FB3EC78003ACC99 /* 音频播放工具 */,
+				B63571DE1FE9001200F26023 /* skCategory */,
+				B63571C21FE9001200F26023 /* skTools */,
 			);
 			path = SkyerTools;
-			sourceTree = "<group>";
-		};
-		B66CBE0D1FB3EC78003ACC99 /* 数据协议工具 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE0E1FB3EC78003ACC99 /* dataTool.h */,
-				B66CBE0F1FB3EC78003ACC99 /* dataTool.m */,
-			);
-			path = "数据协议工具";
-			sourceTree = "<group>";
-		};
-		B66CBE131FB3EC78003ACC99 /* 单例的宏 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE141FB3EC78003ACC99 /* SkyerSingleton.h */,
-			);
-			path = "单例的宏";
-			sourceTree = "<group>";
-		};
-		B66CBE1A1FB3EC78003ACC99 /* 常用的宏 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE1B1FB3EC78003ACC99 /* SkyerMacro.h */,
-			);
-			path = "常用的宏";
-			sourceTree = "<group>";
-		};
-		B66CBE1C1FB3EC78003ACC99 /* 数据缓存类 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE1D1FB3EC78003ACC99 /* SkDataOperation.h */,
-				B66CBE1E1FB3EC78003ACC99 /* SkDataOperation.m */,
-			);
-			path = "数据缓存类";
-			sourceTree = "<group>";
-		};
-		B66CBE221FB3EC78003ACC99 /* 获取当前页 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE231FB3EC78003ACC99 /* SkyerGetVisibleViewController.h */,
-				B66CBE241FB3EC78003ACC99 /* SkyerGetVisibleViewController.m */,
-			);
-			path = "获取当前页";
-			sourceTree = "<group>";
-		};
-		B66CBE251FB3EC78003ACC99 /* 音频播放工具 */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE261FB3EC78003ACC99 /* VoiceTool.h */,
-				B66CBE271FB3EC78003ACC99 /* VoiceTool.m */,
-			);
-			path = "音频播放工具";
 			sourceTree = "<group>";
 		};
 		B66CBE541FB3F2DB003ACC99 /* Frameworks */ = {
@@ -385,21 +393,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B635718D1FE8C27200F26023 /* skClassMethod.m in Sources */,
-				B63571841FE8B77700F26023 /* SkyerHUD.m in Sources */,
-				B63571C11FE8F3EF00F26023 /* CategoryHeader.m in Sources */,
-				B66CBE2F1FB3EC78003ACC99 /* VoiceTool.m in Sources */,
-				B66CBE291FB3EC78003ACC99 /* NSObject+UserData.m in Sources */,
+				B63571F01FE9001200F26023 /* VoiceTool.m in Sources */,
 				B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */,
-				B635718E1FE8C27200F26023 /* UIView+skBoard.m in Sources */,
-				B66CBE281FB3EC78003ACC99 /* dataTool.m in Sources */,
+				B63571F21FE9001200F26023 /* NSObject+UserData.m in Sources */,
+				B63571EB1FE9001200F26023 /* SkScollPageView.m in Sources */,
+				B63571E91FE9001200F26023 /* SkToast.m in Sources */,
+				B63571F51FE9001200F26023 /* UIView+skBoard.m in Sources */,
 				B65D2D1B1FB2A52F002F6459 /* main.m in Sources */,
-				B635718C1FE8C27200F26023 /* NSString+skStrWidth.m in Sources */,
-				B66CBE2C1FB3EC78003ACC99 /* SkDataOperation.m in Sources */,
-				B63571831FE8B77700F26023 /* SkToast.m in Sources */,
-				B66CBE2B1FB3EC78003ACC99 /* UIButton+ClickBlock.m in Sources */,
-				B66CBE2E1FB3EC78003ACC99 /* SkyerGetVisibleViewController.m in Sources */,
-				B635719C1FE8C4AB00F26023 /* SkScollPageView.m in Sources */,
+				B63571EA1FE9001200F26023 /* SkyerHUD.m in Sources */,
+				B63571ED1FE9001200F26023 /* SkDataOperation.m in Sources */,
+				B63571EC1FE9001200F26023 /* dataTool.m in Sources */,
+				B63571EF1FE9001200F26023 /* SkyerGetVisibleViewController.m in Sources */,
+				B63571EE1FE9001200F26023 /* skClassMethod.m in Sources */,
+				B63571F41FE9001200F26023 /* UIButton+ClickBlock.m in Sources */,
+				B63571F11FE9001200F26023 /* CategoryHeader.m in Sources */,
+				B63571F31FE9001200F26023 /* NSString+skStrWidth.m in Sources */,
 				B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
