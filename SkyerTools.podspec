@@ -5,7 +5,7 @@ spec.license  = 'MIT'
 spec.summary  = 'A delightful iOS and OS X SkyerProject framework.'
 spec.homepage = 'https://github.com/274077005'
 spec.authors  = { '274077005@qq.com' => 'skyer' }
-spec.source   = { :git => 'https://github.com/274077005/SkyerTools.git', :tag => s.version, :submodules => true }
+spec.source   = { :git => 'https://github.com/274077005/SkyerTools.git', :tag => spec.version, :submodules => true }
 spec.requires_arc = true
 
 spec.public_header_files = 'SkyerProject/SkyerTools/SkyerTools.h'
