@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "SkyerSingleton.h"
 
 @interface SkyerGetVisibleViewController : NSObject
-
-+ (instancetype)sharedInstance;
+SkyerSingletonH(SkyerGetVisibleViewController)
 
 /**
  获取当前页面

@@ -20,7 +20,7 @@ static MBProgressHUD *HUD;
     [HUD showAnimated:YES];
 }
 +(void) skyerShowProgOnView:(NSString *)title{
-    UIViewController *visible=[[SkyerGetVisibleViewController sharedInstance] skyerVisibleViewController];
+    UIViewController *visible=[[SkyerGetVisibleViewController sharedSkyerGetVisibleViewController] skyerVisibleViewController];
     HUD = [[MBProgressHUD alloc] initWithView:visible.view];
     [[UIApplication sharedApplication].keyWindow addSubview:HUD];
     HUD.label.text = title;
