@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1FA57B1AA517FE923914592 /* libPods-SkyerProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */; };
+		B63571831FE8B77700F26023 /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571801FE8B77700F26023 /* SkToast.m */; };
+		B63571841FE8B77700F26023 /* SkyerHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571821FE8B77700F26023 /* SkyerHUD.m */; };
 		B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */; };
 		B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0F1FB2A52F002F6459 /* ViewController.m */; };
 		B65D2D131FB2A52F002F6459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D111FB2A52F002F6459 /* Main.storyboard */; };
@@ -23,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
+		B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B635717F1FE8B77700F26023 /* SkToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkToast.h; sourceTree = "<group>"; };
+		B63571801FE8B77700F26023 /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
+		B63571811FE8B77700F26023 /* SkyerHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerHUD.h; sourceTree = "<group>"; };
+		B63571821FE8B77700F26023 /* SkyerHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyerHUD.m; sourceTree = "<group>"; };
 		B65D2D081FB2A52E002F6459 /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65D2D0B1FB2A52E002F6459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		B66CBE271FB3EC78003ACC99 /* VoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTool.m; sourceTree = "<group>"; };
 		B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
 		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,18 +68,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FA57B1AA517FE923914592 /* libPods-SkyerProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B635717E1FE8B77700F26023 /* SKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B635717F1FE8B77700F26023 /* SkToast.h */,
+				B63571801FE8B77700F26023 /* SkToast.m */,
+				B63571811FE8B77700F26023 /* SkyerHUD.h */,
+				B63571821FE8B77700F26023 /* SkyerHUD.m */,
+			);
+			path = SKHUD;
+			sourceTree = "<group>";
+		};
 		B65D2CFF1FB2A52E002F6459 = {
 			isa = PBXGroup;
 			children = (
 				B65D2D0A1FB2A52E002F6459 /* SkyerProject */,
 				B65D2D091FB2A52E002F6459 /* Products */,
 				B66CBE541FB3F2DB003ACC99 /* Frameworks */,
+				F37808E267BB8AC9645B974F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */,
+				B635717E1FE8B77700F26023 /* SKHUD */,
 				B66CBE0D1FB3EC78003ACC99 /* data数据处理 */,
 				B66CBE101FB3EC78003ACC99 /* NsObject */,
 				B66CBE131FB3EC78003ACC99 /* Singleton */,
@@ -198,8 +222,18 @@
 			isa = PBXGroup;
 			children = (
 				B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */,
+				B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F37808E267BB8AC9645B974F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */,
+				7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65D2D1E1FB2A52F002F6459 /* Build configuration list for PBXNativeTarget "SkyerProject" */;
 			buildPhases = (
+				A5E15FC2CB64B65555B2FC38 /* [CP] Check Pods Manifest.lock */,
 				B65D2D041FB2A52E002F6459 /* Sources */,
 				B65D2D051FB2A52E002F6459 /* Frameworks */,
 				B65D2D061FB2A52E002F6459 /* Resources */,
+				C9FE398FBEAB0C5270D94E1F /* [CP] Embed Pods Frameworks */,
+				978F0CB7EF3FAEDD3A6EA9B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,17 +305,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		978F0CB7EF3FAEDD3A6EA9B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E15FC2CB64B65555B2FC38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyerProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FE398FBEAB0C5270D94E1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B65D2D041FB2A52E002F6459 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63571841FE8B77700F26023 /* SkyerHUD.m in Sources */,
 				B66CBE2F1FB3EC78003ACC99 /* VoiceTool.m in Sources */,
 				B66CBE291FB3EC78003ACC99 /* NSObject+UserData.m in Sources */,
 				B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */,
 				B66CBE281FB3EC78003ACC99 /* dataTool.m in Sources */,
 				B65D2D1B1FB2A52F002F6459 /* main.m in Sources */,
 				B66CBE2C1FB3EC78003ACC99 /* SkDataOperation.m in Sources */,
+				B63571831FE8B77700F26023 /* SkToast.m in Sources */,
 				B66CBE2B1FB3EC78003ACC99 /* UIButton+ClickBlock.m in Sources */,
 				B66CBE2E1FB3EC78003ACC99 /* SkyerGetVisibleViewController.m in Sources */,
 				B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */,
@@ -414,6 +504,7 @@
 		};
 		B65D2D1F1FB2A52F002F6459 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -429,6 +520,7 @@
 		};
 		B65D2D201FB2A52F002F6459 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
