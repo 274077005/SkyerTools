@@ -12,13 +12,13 @@ spec.requires_arc = true
 
 spec.subspec 'skCategory' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skCategory/*.{h,m}'
-sk.public_header_files = 'SkyerProject/SkyerTools/skCategory/CategoryHeader.h'
+sk.public_header_files = 'SkyerProject/SkyerTools/skCategory/*.h'
 sk.frameworks = 'UIKit'
 end
 
 spec.subspec 'skTools' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skTools/*.{h,m}'
-sk.public_header_files = 'SkyerProject/SkyerTools/skTools/SkyerTools.h'
+sk.public_header_files = 'SkyerProject/SkyerTools/skTools/*.h'
 sk.dependency 'MBProgressHUD'
 sk.frameworks = 'UIKit' ,'AVFoundation'
 end
