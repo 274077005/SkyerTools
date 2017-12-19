@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-spec.name     = 'SkyerProject'
+spec.name     = 'SkyerTools'
 spec.version  = '1.0.9'
 spec.license  = 'MIT'
 spec.summary  = 'A delightful iOS and OS X SkyerProject framework.'
