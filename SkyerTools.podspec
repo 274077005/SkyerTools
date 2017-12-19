@@ -5,6 +5,7 @@ spec.license  = 'MIT'
 spec.summary  = 'A delightful iOS and OS X SkyerProject framework.'
 spec.homepage = 'https://github.com/274077005'
 spec.authors  = { '274077005@qq.com' => 'skyer' }
+spec.ios.deployment_target = '8.0'
 spec.source   = { :git => 'https://github.com/274077005/SkyerTools.git', :tag => spec.version, :submodules => true }
 spec.requires_arc = true
 
@@ -21,7 +22,7 @@ end
 spec.subspec 'skTools' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skTools/*.{h,m}'
 sk.public_header_files = 'SkyerProject/SkyerTools/skTools/*.h'
-sk.dependency.ios 'MBProgressHUD'
+sk.dependency 'MBProgressHUD'
 sk.frameworks = 'UIKit' ,'AVFoundation'
 end
 
