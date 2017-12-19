@@ -15,12 +15,13 @@ spec.social_media_url = "http://weibo.com/"                             #weibo
 spec.platform         = :ios, "8.0"                                     #平台、版本
 spec.source           = { :git => "https://github.com/274077005/SkyerTools.git", :tag => spec.version.to_s }  #代码的git地址以及tag
 
-spec.public_header_files = "SkyerProject/SkyerTools/SkyerTools.h"               #需要对外导出的头文件  此处为本地验证
+#需要对外导出的头文件  此处为本地验证
+spec.public_header_files = "SkyerProject/SkyerTools/*.h"
 
 
 spec.subspec 'skCategory' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skCategory/*.{h,m}'
-sk.public_header_files = 'SkyerProject/SkyerTools/skCategory/*.h'
+sk.public_header_files = 'SkyerProject/SkyerTools/skCategory/CategoryHeader.h'
 sk.frameworks = 'UIKit'
 end
 
