@@ -18,7 +18,7 @@ spec.source_files     = "SkyerProject/SkyerTools/**/*"                  #本地�
 #spec.public_header_files = "SkyerProject/SkyerTools/*.*"      #需要对外导出的头文件  此处为本地验证
 
 #进行子目录分层
-spec.subspec 'Category' do |ls|
+spec.subspec 'Categorys' do |ls|
 ls.source_files = 'SkyerProject/SkyerTools/Category/*.{h,m}'
 ls.public_header_files = 'SkyerProject/SkyerTools/Category/*.h'
 
@@ -28,13 +28,19 @@ ls.public_header_files = 'SkyerProject/SkyerTools/Category/*.h'
 end
 
 spec.frameworks   = 'UIKit','AVFoundation'
-
 spec.ios.dependency 'MBProgressHUD'
+spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }               #这个必须有，不要修改
+
 
 #自己的或者第三方framework,比qqSDK的TencentOpenAPI.framework
 #spec.vendored_frameworks = 'MyFramework.framework','TheirFramework.framework'
 
-spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }               #这个必须有，不要修改
 #文件描述详情请打开 http://www.jianshu.com/p/f841e248bc4f
+#更新步骤
+#git tag ‘1.0.0’
+#git push --tags
+#pod lib lint SkyerTools.podspec --use-libraries
+#pod trunk push SkyerTools.podspec --use-libraries
+
 
 end
