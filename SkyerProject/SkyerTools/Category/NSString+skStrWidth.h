@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <CommonCrypto/CommonCrypto.h>
+//#import <CommonCrypto/CommonCrypto.h>
 
 @interface NSString (skStrWidth)
 
@@ -29,5 +29,5 @@
 
  @return 返回加密后的字符
  */
--(id)MD5;
+//-(id)MD5;
 @end
