@@ -15,6 +15,7 @@
 		B635718E1FE8C27200F26023 /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B635718B1FE8C27200F26023 /* UIView+skBoard.m */; };
 		B63571901FE8C2CD00F26023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B635718F1FE8C2CD00F26023 /* UIKit.framework */; };
 		B635719C1FE8C4AB00F26023 /* SkScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B635719B1FE8C4AB00F26023 /* SkScollPageView.m */; };
+		B63571C11FE8F3EF00F26023 /* CategoryHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571C01FE8F3EF00F26023 /* CategoryHeader.m */; };
 		B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */; };
 		B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0F1FB2A52F002F6459 /* ViewController.m */; };
 		B65D2D131FB2A52F002F6459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D111FB2A52F002F6459 /* Main.storyboard */; };
@@ -43,9 +44,10 @@
 		B635718A1FE8C27200F26023 /* UIView+skBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+skBoard.h"; sourceTree = "<group>"; };
 		B635718B1FE8C27200F26023 /* UIView+skBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+skBoard.m"; sourceTree = "<group>"; };
 		B635718F1FE8C2CD00F26023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B63571911FE8C37F00F26023 /* CategoryImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryImport.h; sourceTree = "<group>"; };
 		B635719A1FE8C4AB00F26023 /* SkScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScollPageView.h; sourceTree = "<group>"; };
 		B635719B1FE8C4AB00F26023 /* SkScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkScollPageView.m; sourceTree = "<group>"; };
+		B63571BF1FE8F3EF00F26023 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		B63571C01FE8F3EF00F26023 /* CategoryHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryHeader.m; sourceTree = "<group>"; };
 		B65D2D081FB2A52E002F6459 /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65D2D0B1FB2A52E002F6459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,7 +104,6 @@
 		B63571851FE8C27200F26023 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B63571911FE8C37F00F26023 /* CategoryImport.h */,
 				B66CBE181FB3EC78003ACC99 /* UIButton+ClickBlock.h */,
 				B66CBE191FB3EC78003ACC99 /* UIButton+ClickBlock.m */,
 				B63571861FE8C27200F26023 /* NSString+skStrWidth.h */,
@@ -111,6 +112,8 @@
 				B66CBE121FB3EC78003ACC99 /* NSObject+UserData.m */,
 				B635718A1FE8C27200F26023 /* UIView+skBoard.h */,
 				B635718B1FE8C27200F26023 /* UIView+skBoard.m */,
+				B63571BF1FE8F3EF00F26023 /* CategoryHeader.h */,
+				B63571C01FE8F3EF00F26023 /* CategoryHeader.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			files = (
 				B635718D1FE8C27200F26023 /* skClassMethod.m in Sources */,
 				B63571841FE8B77700F26023 /* SkyerHUD.m in Sources */,
+				B63571C11FE8F3EF00F26023 /* CategoryHeader.m in Sources */,
 				B66CBE2F1FB3EC78003ACC99 /* VoiceTool.m in Sources */,
 				B66CBE291FB3EC78003ACC99 /* NSObject+UserData.m in Sources */,
 				B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */,
