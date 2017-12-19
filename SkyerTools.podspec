@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name             = "SkyerTools"                                    #Pod的名字
-spec.version          = "1.0.8"                                         #版本号
+spec.version          = "1.0.9"                                         #版本号
 spec.summary          = "A example pod for SkyerTools"
 spec.description      = <<-DESC                                         #Pod的描述
 - A example pod for SkyerTool
@@ -18,11 +18,14 @@ spec.source_files     = "SkyerProject/SkyerTools/**/*"                  #本地�
 #spec.public_header_files = "SkyerProject/SkyerTools/*.*"      #需要对外导出的头文件  此处为本地验证
 
 #进行子目录分层
-#spec.subspec 'UIButton' do |ss|
-#    ss.source_files = 'SkyerProject/SkyerTools/UIButton/UIButton+ClickBlock.{h,m}'
-#    ss.public_header_files = 'SkyerProject/SkyerTools/UIButton/UIButton+ClickBlock.h'
-#end
+s.subspec 'Category' do |ls|
+ls.source_files = 'SkyerProject/SkyerTools/Category/*.{h,m}'
+ls.public_header_files = 'SkyerProject/SkyerTools/Category/*.h'
 
+#ls.dependency 'MBProgressHUD'      #这玩意是需要的第三方库
+#ls.frameworks = 'UIKit' ,'MapKit'  #这玩意是需要的系统库
+#ls.resource = 'iOS_Util/Location/chinaDivision.sqlite' #这玩意是需要的资源文件
+end
 
 spec.frameworks   = 'UIKit','AVFoundation'
 
