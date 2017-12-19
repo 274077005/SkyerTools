@@ -18,7 +18,7 @@ spec.source_files     = "SkyerProject/SkyerTools/**/*"                  #本地�
 #spec.public_header_files = "SkyerProject/SkyerTools/*.*"      #需要对外导出的头文件  此处为本地验证
 
 #进行子目录分层
-s.subspec 'Category' do |ls|
+spec.subspec 'Category' do |ls|
 ls.source_files = 'SkyerProject/SkyerTools/Category/*.{h,m}'
 ls.public_header_files = 'SkyerProject/SkyerTools/Category/*.h'
 
