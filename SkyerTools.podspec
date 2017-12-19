@@ -9,9 +9,6 @@ spec.ios.deployment_target = '8.0'
 spec.source   = { :git => 'https://github.com/274077005/SkyerTools.git', :tag => spec.version, :submodules => true }
 spec.requires_arc = true
 
-spec.public_header_files = 'SkyerProject/SkyerTools/*.{h,m}'
-spec.source_files = 'SkyerProject/SkyerTools/*.h'
-
 
 spec.subspec 'skCategory' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skCategory/*.{h,m}'
