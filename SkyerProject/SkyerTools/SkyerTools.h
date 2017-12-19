@@ -15,5 +15,5 @@
 #import "skClassMethod.h"
 #import "VoiceTool.h"
 #import "SkyerHUD.h"
-#import "CategoryImport.h"
+#import "CategoryHeader.h"
 #import "SkScollPageView.h"
