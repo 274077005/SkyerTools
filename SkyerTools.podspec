@@ -21,7 +21,7 @@ end
 spec.subspec 'skTools' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skTools/*.{h,m}'
 sk.public_header_files = 'SkyerProject/SkyerTools/skTools/*.h'
-sk.dependency 'MBProgressHUD'
+sk.dependency.ios 'MBProgressHUD'
 sk.frameworks = 'UIKit' ,'AVFoundation'
 end
 
