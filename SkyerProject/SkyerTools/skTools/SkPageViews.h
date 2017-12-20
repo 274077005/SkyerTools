@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SkScollPageView : UIScrollView <UIScrollViewDelegate>
+@interface SkPageViews : UIScrollView <UIScrollViewDelegate>
 
 @property (nonatomic,assign)NSInteger indexSelect;
 

@@ -6,11 +6,11 @@
 //  Copyright © 2016年 skyer. All rights reserved.
 //
 
-#import "SkScollPageView.h"
+#import "SkPageViews.h"
 
 
 
-@implementation SkScollPageView
+@implementation SkPageViews
 
 -(instancetype)initWithFrame:(CGRect)frame andArrViews:(NSArray*)arrViews andSelecetIndex:(NSInteger)index{
     self = [super initWithFrame:frame];

@@ -6,10 +6,10 @@
 //  Copyright © 2017年 Castelecom. All rights reserved.
 //
 
-#import "dataTool.h"
+#import "SDataTool.h"
 
 
-@implementation dataTool
+@implementation SDataTool
 
 
 #pragma mark - 数据类型转换

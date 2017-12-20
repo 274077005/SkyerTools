@@ -10,5 +10,4 @@
 //把经常用的导进来直接使用,不常用的使用到再导入
 #import "SkyerSingleton.h"
 #import "SkMacro.h"
-#import "SkClassMethod.h"
 #import "SkHUD.h"
