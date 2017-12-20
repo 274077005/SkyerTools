@@ -13,7 +13,7 @@
 @interface SkLocation : NSObject <CLLocationManagerDelegate>
 
 SkyerSingletonH(SkLocation)
-#warning 使用这玩意需要获取定位权限,否则会报错
+//使用这玩意需要获取定位权限,否则会报错
 @property (nonatomic,strong) CLLocationManager *locationManager;
 
 /**
