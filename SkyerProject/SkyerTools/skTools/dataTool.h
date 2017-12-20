@@ -1,18 +1,17 @@
 //
-//  SkDataTool.h
-//  SkyerProject
+//  dataTool.h
+//  LiteGuardian
 //
-//  Created by SoKing on 2017/12/20.
-//  Copyright © 2017年 skyer. All rights reserved.
+//  Created by SoKing on 2017/5/2.
+//  Copyright © 2017年 Castelecom. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SkDataTool : NSObject
-
+@interface dataTool : NSObject
 /**
  byte[]转data
-
+ 
  @param byte 要转换的byte数组
  @param byteLength 数组的长度
  @return 一个完成转换的data
@@ -22,7 +21,7 @@
 
 /**
  string转data
-
+ 
  @param string 需要转换的string
  @return NSData
  */
@@ -30,7 +29,7 @@
 
 /**
  int转data,给定长度
-
+ 
  @param intValue intValue
  @param length length
  @return NSData
@@ -40,14 +39,14 @@
 
 /**
  data转Byte,给定长度
-
+ 
  @param data data description
  @return return value description
  */
 + (Byte *)dataToByte:(NSData *)data;
 /**
  不足补齐
-
+ 
  @param data data description
  @param length length description
  @return NSData
