@@ -7,223 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1FA57B1AA517FE923914592 /* libPods-SkyerProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */; };
-		B63571901FE8C2CD00F26023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B635718F1FE8C2CD00F26023 /* UIKit.framework */; };
-		B63571F21FE9001200F26023 /* NSObject+UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E21FE9001200F26023 /* NSObject+UserData.m */; };
-		B63571F31FE9001200F26023 /* NSString+skStrWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E41FE9001200F26023 /* NSString+skStrWidth.m */; };
-		B63571F41FE9001200F26023 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */; };
-		B63571F51FE9001200F26023 /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571E81FE9001200F26023 /* UIView+skBoard.m */; };
-		B63C639B1FEA58140000CF3D /* SkPageViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63811FEA58120000CF3D /* SkPageViews.m */; };
-		B63C639C1FEA58140000CF3D /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63821FEA58120000CF3D /* SkDataOperation.m */; };
-		B63C639D1FEA58140000CF3D /* SkChildViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63831FEA58120000CF3D /* SkChildViews.m */; };
-		B63C639E1FEA58140000CF3D /* SkGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63871FEA58120000CF3D /* SkGetVisibleViewController.m */; };
-		B63C639F1FEA58140000CF3D /* SkClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63881FEA58120000CF3D /* SkClassMethod.m */; };
-		B63C63A01FEA58140000CF3D /* SkVoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C638A1FEA58130000CF3D /* SkVoiceTool.m */; };
-		B63C63A11FEA58140000CF3D /* SkDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C638B1FEA58130000CF3D /* SkDate.m */; };
-		B63C63A21FEA58140000CF3D /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C638E1FEA58130000CF3D /* WGS84TOGCJ02.m */; };
-		B63C63A31FEA58140000CF3D /* SkLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C638F1FEA58130000CF3D /* SkLocation.m */; };
-		B63C63A41FEA58140000CF3D /* SkProtocolData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63941FEA58130000CF3D /* SkProtocolData.m */; };
-		B63C63A51FEA58140000CF3D /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63961FEA58130000CF3D /* SkToast.m */; };
-		B63C63A61FEA58140000CF3D /* SkHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C639A1FEA58140000CF3D /* SkHUD.m */; };
-		B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */; };
-		B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0F1FB2A52F002F6459 /* ViewController.m */; };
-		B65D2D131FB2A52F002F6459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D111FB2A52F002F6459 /* Main.storyboard */; };
-		B65D2D151FB2A52F002F6459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D141FB2A52F002F6459 /* Assets.xcassets */; };
-		B65D2D181FB2A52F002F6459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65D2D161FB2A52F002F6459 /* LaunchScreen.storyboard */; };
-		B65D2D1B1FB2A52F002F6459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D1A1FB2A52F002F6459 /* main.m */; };
+		B63C63B51FEA59DF0000CF3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B41FEA59DF0000CF3D /* AppDelegate.m */; };
+		B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B71FEA59DF0000CF3D /* ViewController.m */; };
+		B63C63BB1FEA59DF0000CF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63C63B91FEA59DF0000CF3D /* Main.storyboard */; };
+		B63C63BD1FEA59DF0000CF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63C63BC1FEA59DF0000CF3D /* Assets.xcassets */; };
+		B63C63C01FEA59DF0000CF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63C63BE1FEA59DF0000CF3D /* LaunchScreen.storyboard */; };
+		B63C63C31FEA59DF0000CF3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63C21FEA59DF0000CF3D /* main.m */; };
+		B63C63EF1FEA5B460000CF3D /* NSObject+UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63CC1FEA5B460000CF3D /* NSObject+UserData.m */; };
+		B63C63F01FEA5B460000CF3D /* NSString+skStrWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63CE1FEA5B460000CF3D /* NSString+skStrWidth.m */; };
+		B63C63F11FEA5B460000CF3D /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D01FEA5B460000CF3D /* UIButton+ClickBlock.m */; };
+		B63C63F21FEA5B460000CF3D /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D21FEA5B460000CF3D /* UIView+skBoard.m */; };
+		B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D51FEA5B460000CF3D /* SkChildViews.m */; };
+		B63C63F41FEA5B460000CF3D /* SkClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D71FEA5B460000CF3D /* SkClassMethod.m */; };
+		B63C63F51FEA5B460000CF3D /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D91FEA5B460000CF3D /* SkDataOperation.m */; };
+		B63C63F61FEA5B460000CF3D /* SkDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DB1FEA5B460000CF3D /* SkDate.m */; };
+		B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */; };
+		B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DF1FEA5B460000CF3D /* SkHUD.m */; };
+		B63C63F91FEA5B460000CF3D /* SkLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E11FEA5B460000CF3D /* SkLocation.m */; };
+		B63C63FA1FEA5B460000CF3D /* SkPageViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E41FEA5B460000CF3D /* SkPageViews.m */; };
+		B63C63FB1FEA5B460000CF3D /* SkProtocolData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E61FEA5B460000CF3D /* SkProtocolData.m */; };
+		B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E81FEA5B460000CF3D /* SkToast.m */; };
+		B63C63FD1FEA5B460000CF3D /* SkVoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */; };
+		B63C63FE1FEA5B460000CF3D /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */; };
+		DD657844FA69D433F9F09AD9 /* libPods-SkyerProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA4CF4F4B20C676446C4C3D /* libPods-SkyerProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
-		B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
-		B635718F1FE8C2CD00F26023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B63571E11FE9001200F26023 /* NSObject+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserData.h"; sourceTree = "<group>"; };
-		B63571E21FE9001200F26023 /* NSObject+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserData.m"; sourceTree = "<group>"; };
-		B63571E31FE9001200F26023 /* NSString+skStrWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+skStrWidth.h"; sourceTree = "<group>"; };
-		B63571E41FE9001200F26023 /* NSString+skStrWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+skStrWidth.m"; sourceTree = "<group>"; };
-		B63571E51FE9001200F26023 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
-		B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
-		B63571E71FE9001200F26023 /* UIView+skBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+skBoard.h"; sourceTree = "<group>"; };
-		B63571E81FE9001200F26023 /* UIView+skBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+skBoard.m"; sourceTree = "<group>"; };
-		B63C63801FEA58120000CF3D /* SkClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClassMethod.h; sourceTree = "<group>"; };
-		B63C63811FEA58120000CF3D /* SkPageViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkPageViews.m; sourceTree = "<group>"; };
-		B63C63821FEA58120000CF3D /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
-		B63C63831FEA58120000CF3D /* SkChildViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkChildViews.m; sourceTree = "<group>"; };
-		B63C63841FEA58120000CF3D /* SkChildViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkChildViews.h; sourceTree = "<group>"; };
-		B63C63851FEA58120000CF3D /* SkLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLocation.h; sourceTree = "<group>"; };
-		B63C63861FEA58120000CF3D /* SkProtocolData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkProtocolData.h; sourceTree = "<group>"; };
-		B63C63871FEA58120000CF3D /* SkGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkGetVisibleViewController.m; sourceTree = "<group>"; };
-		B63C63881FEA58120000CF3D /* SkClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkClassMethod.m; sourceTree = "<group>"; };
-		B63C63891FEA58130000CF3D /* SkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMacro.h; sourceTree = "<group>"; };
-		B63C638A1FEA58130000CF3D /* SkVoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkVoiceTool.m; sourceTree = "<group>"; };
-		B63C638B1FEA58130000CF3D /* SkDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDate.m; sourceTree = "<group>"; };
-		B63C638C1FEA58130000CF3D /* SkPageViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPageViews.h; sourceTree = "<group>"; };
-		B63C638D1FEA58130000CF3D /* SkHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHUD.h; sourceTree = "<group>"; };
-		B63C638E1FEA58130000CF3D /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
-		B63C638F1FEA58130000CF3D /* SkLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkLocation.m; sourceTree = "<group>"; };
-		B63C63901FEA58130000CF3D /* SkToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkToast.h; sourceTree = "<group>"; };
-		B63C63911FEA58130000CF3D /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
-		B63C63921FEA58130000CF3D /* SkyerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
-		B63C63931FEA58130000CF3D /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
-		B63C63941FEA58130000CF3D /* SkProtocolData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkProtocolData.m; sourceTree = "<group>"; };
-		B63C63951FEA58130000CF3D /* SkGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGetVisibleViewController.h; sourceTree = "<group>"; };
-		B63C63961FEA58130000CF3D /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
-		B63C63971FEA58140000CF3D /* SkVoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVoiceTool.h; sourceTree = "<group>"; };
-		B63C63981FEA58140000CF3D /* SkDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDate.h; sourceTree = "<group>"; };
-		B63C63991FEA58140000CF3D /* SkyerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerSingleton.h; sourceTree = "<group>"; };
-		B63C639A1FEA58140000CF3D /* SkHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkHUD.m; sourceTree = "<group>"; };
-		B65D2D081FB2A52E002F6459 /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B65D2D0B1FB2A52E002F6459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B65D2D0E1FB2A52E002F6459 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B65D2D0F1FB2A52F002F6459 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B65D2D121FB2A52F002F6459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B65D2D141FB2A52F002F6459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B65D2D171FB2A52F002F6459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B65D2D191FB2A52F002F6459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B65D2D1A1FB2A52F002F6459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9034C3658A1AD1B57B818832 /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
+		9CA4CF4F4B20C676446C4C3D /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C63B01FEA59DF0000CF3D /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C63B31FEA59DF0000CF3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B63C63B41FEA59DF0000CF3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B63C63B61FEA59DF0000CF3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B63C63B71FEA59DF0000CF3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B63C63BA1FEA59DF0000CF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B63C63BC1FEA59DF0000CF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63C63BF1FEA59DF0000CF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63C63C11FEA59DF0000CF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C63C21FEA59DF0000CF3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B63C63CB1FEA5B460000CF3D /* NSObject+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserData.h"; sourceTree = "<group>"; };
+		B63C63CC1FEA5B460000CF3D /* NSObject+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserData.m"; sourceTree = "<group>"; };
+		B63C63CD1FEA5B460000CF3D /* NSString+skStrWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+skStrWidth.h"; sourceTree = "<group>"; };
+		B63C63CE1FEA5B460000CF3D /* NSString+skStrWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+skStrWidth.m"; sourceTree = "<group>"; };
+		B63C63CF1FEA5B460000CF3D /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickBlock.h"; sourceTree = "<group>"; };
+		B63C63D01FEA5B460000CF3D /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickBlock.m"; sourceTree = "<group>"; };
+		B63C63D11FEA5B460000CF3D /* UIView+skBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+skBoard.h"; sourceTree = "<group>"; };
+		B63C63D21FEA5B460000CF3D /* UIView+skBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+skBoard.m"; sourceTree = "<group>"; };
+		B63C63D41FEA5B460000CF3D /* SkChildViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkChildViews.h; sourceTree = "<group>"; };
+		B63C63D51FEA5B460000CF3D /* SkChildViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkChildViews.m; sourceTree = "<group>"; };
+		B63C63D61FEA5B460000CF3D /* SkClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClassMethod.h; sourceTree = "<group>"; };
+		B63C63D71FEA5B460000CF3D /* SkClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkClassMethod.m; sourceTree = "<group>"; };
+		B63C63D81FEA5B460000CF3D /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
+		B63C63D91FEA5B460000CF3D /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
+		B63C63DA1FEA5B460000CF3D /* SkDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDate.h; sourceTree = "<group>"; };
+		B63C63DB1FEA5B460000CF3D /* SkDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDate.m; sourceTree = "<group>"; };
+		B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGetVisibleViewController.h; sourceTree = "<group>"; };
+		B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkGetVisibleViewController.m; sourceTree = "<group>"; };
+		B63C63DE1FEA5B460000CF3D /* SkHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHUD.h; sourceTree = "<group>"; };
+		B63C63DF1FEA5B460000CF3D /* SkHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkHUD.m; sourceTree = "<group>"; };
+		B63C63E01FEA5B460000CF3D /* SkLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLocation.h; sourceTree = "<group>"; };
+		B63C63E11FEA5B460000CF3D /* SkLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkLocation.m; sourceTree = "<group>"; };
+		B63C63E21FEA5B460000CF3D /* SkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMacro.h; sourceTree = "<group>"; };
+		B63C63E31FEA5B460000CF3D /* SkPageViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPageViews.h; sourceTree = "<group>"; };
+		B63C63E41FEA5B460000CF3D /* SkPageViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkPageViews.m; sourceTree = "<group>"; };
+		B63C63E51FEA5B460000CF3D /* SkProtocolData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkProtocolData.h; sourceTree = "<group>"; };
+		B63C63E61FEA5B460000CF3D /* SkProtocolData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkProtocolData.m; sourceTree = "<group>"; };
+		B63C63E71FEA5B460000CF3D /* SkToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkToast.h; sourceTree = "<group>"; };
+		B63C63E81FEA5B460000CF3D /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
+		B63C63E91FEA5B460000CF3D /* SkVoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVoiceTool.h; sourceTree = "<group>"; };
+		B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkVoiceTool.m; sourceTree = "<group>"; };
+		B63C63EB1FEA5B460000CF3D /* SkyerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerSingleton.h; sourceTree = "<group>"; };
+		B63C63EC1FEA5B460000CF3D /* SkyerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
+		B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
+		B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
+		D3E02BB63AD2129618BBFBC1 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B65D2D051FB2A52E002F6459 /* Frameworks */ = {
+		B63C63AD1FEA59DF0000CF3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63571901FE8C2CD00F26023 /* UIKit.framework in Frameworks */,
-				A1FA57B1AA517FE923914592 /* libPods-SkyerProject.a in Frameworks */,
+				DD657844FA69D433F9F09AD9 /* libPods-SkyerProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B63571C21FE9001200F26023 /* skTools */ = {
+		53C9BE12C3703FED553EDB0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B63C63841FEA58120000CF3D /* SkChildViews.h */,
-				B63C63831FEA58120000CF3D /* SkChildViews.m */,
-				B63C63801FEA58120000CF3D /* SkClassMethod.h */,
-				B63C63881FEA58120000CF3D /* SkClassMethod.m */,
-				B63C63931FEA58130000CF3D /* SkDataOperation.h */,
-				B63C63821FEA58120000CF3D /* SkDataOperation.m */,
-				B63C63981FEA58140000CF3D /* SkDate.h */,
-				B63C638B1FEA58130000CF3D /* SkDate.m */,
-				B63C63951FEA58130000CF3D /* SkGetVisibleViewController.h */,
-				B63C63871FEA58120000CF3D /* SkGetVisibleViewController.m */,
-				B63C638D1FEA58130000CF3D /* SkHUD.h */,
-				B63C639A1FEA58140000CF3D /* SkHUD.m */,
-				B63C63851FEA58120000CF3D /* SkLocation.h */,
-				B63C638F1FEA58130000CF3D /* SkLocation.m */,
-				B63C63891FEA58130000CF3D /* SkMacro.h */,
-				B63C638C1FEA58130000CF3D /* SkPageViews.h */,
-				B63C63811FEA58120000CF3D /* SkPageViews.m */,
-				B63C63861FEA58120000CF3D /* SkProtocolData.h */,
-				B63C63941FEA58130000CF3D /* SkProtocolData.m */,
-				B63C63901FEA58130000CF3D /* SkToast.h */,
-				B63C63961FEA58130000CF3D /* SkToast.m */,
-				B63C63971FEA58140000CF3D /* SkVoiceTool.h */,
-				B63C638A1FEA58130000CF3D /* SkVoiceTool.m */,
-				B63C63991FEA58140000CF3D /* SkyerSingleton.h */,
-				B63C63921FEA58130000CF3D /* SkyerTools.h */,
-				B63C63911FEA58130000CF3D /* WGS84TOGCJ02.h */,
-				B63C638E1FEA58130000CF3D /* WGS84TOGCJ02.m */,
-			);
-			path = skTools;
-			sourceTree = "<group>";
-		};
-		B63571DE1FE9001200F26023 /* skCategory */ = {
-			isa = PBXGroup;
-			children = (
-				B63571E11FE9001200F26023 /* NSObject+UserData.h */,
-				B63571E21FE9001200F26023 /* NSObject+UserData.m */,
-				B63571E31FE9001200F26023 /* NSString+skStrWidth.h */,
-				B63571E41FE9001200F26023 /* NSString+skStrWidth.m */,
-				B63571E51FE9001200F26023 /* UIButton+ClickBlock.h */,
-				B63571E61FE9001200F26023 /* UIButton+ClickBlock.m */,
-				B63571E71FE9001200F26023 /* UIView+skBoard.h */,
-				B63571E81FE9001200F26023 /* UIView+skBoard.m */,
-			);
-			path = skCategory;
-			sourceTree = "<group>";
-		};
-		B65D2CFF1FB2A52E002F6459 = {
-			isa = PBXGroup;
-			children = (
-				B65D2D0A1FB2A52E002F6459 /* SkyerProject */,
-				B65D2D091FB2A52E002F6459 /* Products */,
-				B66CBE541FB3F2DB003ACC99 /* Frameworks */,
-				F37808E267BB8AC9645B974F /* Pods */,
-			);
-			sourceTree = "<group>";
-		};
-		B65D2D091FB2A52E002F6459 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B65D2D081FB2A52E002F6459 /* SkyerProject.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B65D2D0A1FB2A52E002F6459 /* SkyerProject */ = {
-			isa = PBXGroup;
-			children = (
-				B66CBE0C1FB3EC78003ACC99 /* SkyerTools */,
-				B65D2D0B1FB2A52E002F6459 /* AppDelegate.h */,
-				B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */,
-				B65D2D0E1FB2A52E002F6459 /* ViewController.h */,
-				B65D2D0F1FB2A52F002F6459 /* ViewController.m */,
-				B65D2D111FB2A52F002F6459 /* Main.storyboard */,
-				B65D2D141FB2A52F002F6459 /* Assets.xcassets */,
-				B65D2D161FB2A52F002F6459 /* LaunchScreen.storyboard */,
-				B65D2D191FB2A52F002F6459 /* Info.plist */,
-				B65D2D1A1FB2A52F002F6459 /* main.m */,
-			);
-			path = SkyerProject;
-			sourceTree = "<group>";
-		};
-		B66CBE0C1FB3EC78003ACC99 /* SkyerTools */ = {
-			isa = PBXGroup;
-			children = (
-				B63571DE1FE9001200F26023 /* skCategory */,
-				B63571C21FE9001200F26023 /* skTools */,
-			);
-			path = SkyerTools;
-			sourceTree = "<group>";
-		};
-		B66CBE541FB3F2DB003ACC99 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B635718F1FE8C2CD00F26023 /* UIKit.framework */,
-				B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */,
-				B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */,
+				9CA4CF4F4B20C676446C4C3D /* libPods-SkyerProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F37808E267BB8AC9645B974F /* Pods */ = {
+		7E982800C5461A6F2DE6ECC1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */,
-				7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */,
+				D3E02BB63AD2129618BBFBC1 /* Pods-SkyerProject.debug.xcconfig */,
+				9034C3658A1AD1B57B818832 /* Pods-SkyerProject.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B63C63A71FEA59DF0000CF3D = {
+			isa = PBXGroup;
+			children = (
+				B63C63B21FEA59DF0000CF3D /* SkyerProject */,
+				B63C63B11FEA59DF0000CF3D /* Products */,
+				7E982800C5461A6F2DE6ECC1 /* Pods */,
+				53C9BE12C3703FED553EDB0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B63C63B11FEA59DF0000CF3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63C63B01FEA59DF0000CF3D /* SkyerProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63C63B21FEA59DF0000CF3D /* SkyerProject */ = {
+			isa = PBXGroup;
+			children = (
+				B63C63C91FEA5B460000CF3D /* SkyerTools */,
+				B63C63B31FEA59DF0000CF3D /* AppDelegate.h */,
+				B63C63B41FEA59DF0000CF3D /* AppDelegate.m */,
+				B63C63B61FEA59DF0000CF3D /* ViewController.h */,
+				B63C63B71FEA59DF0000CF3D /* ViewController.m */,
+				B63C63B91FEA59DF0000CF3D /* Main.storyboard */,
+				B63C63BC1FEA59DF0000CF3D /* Assets.xcassets */,
+				B63C63BE1FEA59DF0000CF3D /* LaunchScreen.storyboard */,
+				B63C63C11FEA59DF0000CF3D /* Info.plist */,
+				B63C63C21FEA59DF0000CF3D /* main.m */,
+			);
+			path = SkyerProject;
+			sourceTree = "<group>";
+		};
+		B63C63C91FEA5B460000CF3D /* SkyerTools */ = {
+			isa = PBXGroup;
+			children = (
+				B63C63CA1FEA5B460000CF3D /* skCategory */,
+				B63C63D31FEA5B460000CF3D /* skTools */,
+			);
+			path = SkyerTools;
+			sourceTree = "<group>";
+		};
+		B63C63CA1FEA5B460000CF3D /* skCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B63C63CB1FEA5B460000CF3D /* NSObject+UserData.h */,
+				B63C63CC1FEA5B460000CF3D /* NSObject+UserData.m */,
+				B63C63CD1FEA5B460000CF3D /* NSString+skStrWidth.h */,
+				B63C63CE1FEA5B460000CF3D /* NSString+skStrWidth.m */,
+				B63C63CF1FEA5B460000CF3D /* UIButton+ClickBlock.h */,
+				B63C63D01FEA5B460000CF3D /* UIButton+ClickBlock.m */,
+				B63C63D11FEA5B460000CF3D /* UIView+skBoard.h */,
+				B63C63D21FEA5B460000CF3D /* UIView+skBoard.m */,
+			);
+			path = skCategory;
+			sourceTree = "<group>";
+		};
+		B63C63D31FEA5B460000CF3D /* skTools */ = {
+			isa = PBXGroup;
+			children = (
+				B63C63D41FEA5B460000CF3D /* SkChildViews.h */,
+				B63C63D51FEA5B460000CF3D /* SkChildViews.m */,
+				B63C63D61FEA5B460000CF3D /* SkClassMethod.h */,
+				B63C63D71FEA5B460000CF3D /* SkClassMethod.m */,
+				B63C63D81FEA5B460000CF3D /* SkDataOperation.h */,
+				B63C63D91FEA5B460000CF3D /* SkDataOperation.m */,
+				B63C63DA1FEA5B460000CF3D /* SkDate.h */,
+				B63C63DB1FEA5B460000CF3D /* SkDate.m */,
+				B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */,
+				B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */,
+				B63C63DE1FEA5B460000CF3D /* SkHUD.h */,
+				B63C63DF1FEA5B460000CF3D /* SkHUD.m */,
+				B63C63E01FEA5B460000CF3D /* SkLocation.h */,
+				B63C63E11FEA5B460000CF3D /* SkLocation.m */,
+				B63C63E21FEA5B460000CF3D /* SkMacro.h */,
+				B63C63E31FEA5B460000CF3D /* SkPageViews.h */,
+				B63C63E41FEA5B460000CF3D /* SkPageViews.m */,
+				B63C63E51FEA5B460000CF3D /* SkProtocolData.h */,
+				B63C63E61FEA5B460000CF3D /* SkProtocolData.m */,
+				B63C63E71FEA5B460000CF3D /* SkToast.h */,
+				B63C63E81FEA5B460000CF3D /* SkToast.m */,
+				B63C63E91FEA5B460000CF3D /* SkVoiceTool.h */,
+				B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */,
+				B63C63EB1FEA5B460000CF3D /* SkyerSingleton.h */,
+				B63C63EC1FEA5B460000CF3D /* SkyerTools.h */,
+				B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */,
+				B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */,
+			);
+			path = skTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B65D2D071FB2A52E002F6459 /* SkyerProject */ = {
+		B63C63AF1FEA59DF0000CF3D /* SkyerProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B65D2D1E1FB2A52F002F6459 /* Build configuration list for PBXNativeTarget "SkyerProject" */;
+			buildConfigurationList = B63C63C61FEA59DF0000CF3D /* Build configuration list for PBXNativeTarget "SkyerProject" */;
 			buildPhases = (
-				A5E15FC2CB64B65555B2FC38 /* [CP] Check Pods Manifest.lock */,
-				B65D2D041FB2A52E002F6459 /* Sources */,
-				B65D2D051FB2A52E002F6459 /* Frameworks */,
-				B65D2D061FB2A52E002F6459 /* Resources */,
-				C9FE398FBEAB0C5270D94E1F /* [CP] Embed Pods Frameworks */,
-				978F0CB7EF3FAEDD3A6EA9B5 /* [CP] Copy Pods Resources */,
+				7B96AA279F2CD17FAF1B2CD1 /* [CP] Check Pods Manifest.lock */,
+				B63C63AC1FEA59DF0000CF3D /* Sources */,
+				B63C63AD1FEA59DF0000CF3D /* Frameworks */,
+				B63C63AE1FEA59DF0000CF3D /* Resources */,
+				2C1F05A38C2C80872D0B949A /* [CP] Embed Pods Frameworks */,
+				CFC117D8B07B2C52B4F4D08E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,25 +225,25 @@
 			);
 			name = SkyerProject;
 			productName = SkyerProject;
-			productReference = B65D2D081FB2A52E002F6459 /* SkyerProject.app */;
+			productReference = B63C63B01FEA59DF0000CF3D /* SkyerProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B65D2D001FB2A52E002F6459 /* Project object */ = {
+		B63C63A81FEA59DF0000CF3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = skyer;
 				TargetAttributes = {
-					B65D2D071FB2A52E002F6459 = {
-						CreatedOnToolsVersion = 9.1;
+					B63C63AF1FEA59DF0000CF3D = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B65D2D031FB2A52E002F6459 /* Build configuration list for PBXProject "SkyerProject" */;
+			buildConfigurationList = B63C63AB1FEA59DF0000CF3D /* Build configuration list for PBXProject "SkyerProject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,46 +251,46 @@
 				en,
 				Base,
 			);
-			mainGroup = B65D2CFF1FB2A52E002F6459;
-			productRefGroup = B65D2D091FB2A52E002F6459 /* Products */;
+			mainGroup = B63C63A71FEA59DF0000CF3D;
+			productRefGroup = B63C63B11FEA59DF0000CF3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B65D2D071FB2A52E002F6459 /* SkyerProject */,
+				B63C63AF1FEA59DF0000CF3D /* SkyerProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B65D2D061FB2A52E002F6459 /* Resources */ = {
+		B63C63AE1FEA59DF0000CF3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65D2D181FB2A52F002F6459 /* LaunchScreen.storyboard in Resources */,
-				B65D2D151FB2A52F002F6459 /* Assets.xcassets in Resources */,
-				B65D2D131FB2A52F002F6459 /* Main.storyboard in Resources */,
+				B63C63C01FEA59DF0000CF3D /* LaunchScreen.storyboard in Resources */,
+				B63C63BD1FEA59DF0000CF3D /* Assets.xcassets in Resources */,
+				B63C63BB1FEA59DF0000CF3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		978F0CB7EF3FAEDD3A6EA9B5 /* [CP] Copy Pods Resources */ = {
+		2C1F05A38C2C80872D0B949A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5E15FC2CB64B65555B2FC38 /* [CP] Check Pods Manifest.lock */ = {
+		7B96AA279F2CD17FAF1B2CD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,65 +308,65 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9FE398FBEAB0C5270D94E1F /* [CP] Embed Pods Frameworks */ = {
+		CFC117D8B07B2C52B4F4D08E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B65D2D041FB2A52E002F6459 /* Sources */ = {
+		B63C63AC1FEA59DF0000CF3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63C639C1FEA58140000CF3D /* SkDataOperation.m in Sources */,
-				B63C63A21FEA58140000CF3D /* WGS84TOGCJ02.m in Sources */,
-				B63C639D1FEA58140000CF3D /* SkChildViews.m in Sources */,
-				B63C63A61FEA58140000CF3D /* SkHUD.m in Sources */,
-				B65D2D101FB2A52F002F6459 /* ViewController.m in Sources */,
-				B63C639F1FEA58140000CF3D /* SkClassMethod.m in Sources */,
-				B63C63A01FEA58140000CF3D /* SkVoiceTool.m in Sources */,
-				B63C639B1FEA58140000CF3D /* SkPageViews.m in Sources */,
-				B63571F21FE9001200F26023 /* NSObject+UserData.m in Sources */,
-				B63571F51FE9001200F26023 /* UIView+skBoard.m in Sources */,
-				B65D2D1B1FB2A52F002F6459 /* main.m in Sources */,
-				B63C63A11FEA58140000CF3D /* SkDate.m in Sources */,
-				B63571F41FE9001200F26023 /* UIButton+ClickBlock.m in Sources */,
-				B63571F31FE9001200F26023 /* NSString+skStrWidth.m in Sources */,
-				B63C639E1FEA58140000CF3D /* SkGetVisibleViewController.m in Sources */,
-				B63C63A31FEA58140000CF3D /* SkLocation.m in Sources */,
-				B63C63A41FEA58140000CF3D /* SkProtocolData.m in Sources */,
-				B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */,
-				B63C63A51FEA58140000CF3D /* SkToast.m in Sources */,
+				B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */,
+				B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */,
+				B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */,
+				B63C63C31FEA59DF0000CF3D /* main.m in Sources */,
+				B63C63F11FEA5B460000CF3D /* UIButton+ClickBlock.m in Sources */,
+				B63C63EF1FEA5B460000CF3D /* NSObject+UserData.m in Sources */,
+				B63C63FB1FEA5B460000CF3D /* SkProtocolData.m in Sources */,
+				B63C63B51FEA59DF0000CF3D /* AppDelegate.m in Sources */,
+				B63C63F91FEA5B460000CF3D /* SkLocation.m in Sources */,
+				B63C63F41FEA5B460000CF3D /* SkClassMethod.m in Sources */,
+				B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */,
+				B63C63FE1FEA5B460000CF3D /* WGS84TOGCJ02.m in Sources */,
+				B63C63FA1FEA5B460000CF3D /* SkPageViews.m in Sources */,
+				B63C63F51FEA5B460000CF3D /* SkDataOperation.m in Sources */,
+				B63C63F21FEA5B460000CF3D /* UIView+skBoard.m in Sources */,
+				B63C63F01FEA5B460000CF3D /* NSString+skStrWidth.m in Sources */,
+				B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */,
+				B63C63FD1FEA5B460000CF3D /* SkVoiceTool.m in Sources */,
+				B63C63F61FEA5B460000CF3D /* SkDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B65D2D111FB2A52F002F6459 /* Main.storyboard */ = {
+		B63C63B91FEA59DF0000CF3D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B65D2D121FB2A52F002F6459 /* Base */,
+				B63C63BA1FEA59DF0000CF3D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B65D2D161FB2A52F002F6459 /* LaunchScreen.storyboard */ = {
+		B63C63BE1FEA59DF0000CF3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B65D2D171FB2A52F002F6459 /* Base */,
+				B63C63BF1FEA59DF0000CF3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -380,7 +374,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B65D2D1C1FB2A52F002F6459 /* Debug */ = {
+		B63C63C41FEA59DF0000CF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		B65D2D1D1FB2A52F002F6459 /* Release */ = {
+		B63C63C51FEA59DF0000CF3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,9 +478,9 @@
 			};
 			name = Release;
 		};
-		B65D2D1F1FB2A52F002F6459 /* Debug */ = {
+		B63C63C71FEA59DF0000CF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07C3397670D92F3545B45F5 /* Pods-SkyerProject.debug.xcconfig */;
+			baseConfigurationReference = D3E02BB63AD2129618BBFBC1 /* Pods-SkyerProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,15 +488,15 @@
 				INFOPLIST_FILE = SkyerProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.castel.skyer.SkyerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = www.skyer.com.SkyerProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B65D2D201FB2A52F002F6459 /* Release */ = {
+		B63C63C81FEA59DF0000CF3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FE3DAB076923D3C6412195E /* Pods-SkyerProject.release.xcconfig */;
+			baseConfigurationReference = 9034C3658A1AD1B57B818832 /* Pods-SkyerProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,7 +504,7 @@
 				INFOPLIST_FILE = SkyerProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.castel.skyer.SkyerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = www.skyer.com.SkyerProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,25 +513,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B65D2D031FB2A52E002F6459 /* Build configuration list for PBXProject "SkyerProject" */ = {
+		B63C63AB1FEA59DF0000CF3D /* Build configuration list for PBXProject "SkyerProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B65D2D1C1FB2A52F002F6459 /* Debug */,
-				B65D2D1D1FB2A52F002F6459 /* Release */,
+				B63C63C41FEA59DF0000CF3D /* Debug */,
+				B63C63C51FEA59DF0000CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B65D2D1E1FB2A52F002F6459 /* Build configuration list for PBXNativeTarget "SkyerProject" */ = {
+		B63C63C61FEA59DF0000CF3D /* Build configuration list for PBXNativeTarget "SkyerProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B65D2D1F1FB2A52F002F6459 /* Debug */,
-				B65D2D201FB2A52F002F6459 /* Release */,
+				B63C63C71FEA59DF0000CF3D /* Debug */,
+				B63C63C81FEA59DF0000CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B65D2D001FB2A52E002F6459 /* Project object */;
+	rootObject = B63C63A81FEA59DF0000CF3D /* Project object */;
 }

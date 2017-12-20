@@ -6,7 +6,6 @@ target 'SkyerProject' do
   # use_frameworks!
 
   # Pods for SkyerProject
-
-    pod 'MBProgressHUD'
+  pod 'MBProgressHUD'
 
 end
