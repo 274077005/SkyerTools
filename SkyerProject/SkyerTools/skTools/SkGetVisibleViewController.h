@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 #import "SkyerSingleton.h"
 
-@interface SkyerGetVisibleViewController : NSObject
-SkyerSingletonH(SkyerGetVisibleViewController)
+@interface SkGetVisibleViewController : NSObject
+SkyerSingletonH(SkGetVisibleViewController)
 
 /**
  获取当前页面
@@ -20,11 +20,5 @@ SkyerSingletonH(SkyerGetVisibleViewController)
  */
 - (UIViewController *)skyerVisibleViewController;//获取当前显示的页面
 
-/**
- 返回当前页的顶层页面
 
- @param rootViewController 需要判断的界面
- @return 返回系统显示的页面
- */
-- (UIViewController*)skyerTopViewControllerWithRootViewController:(UIViewController*)rootViewController;
 @end

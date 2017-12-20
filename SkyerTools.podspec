@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 spec.name     = 'SkyerTools'
-spec.version  = '1.1.0'
+spec.version  = '1.1.1'
 spec.license  = 'MIT'
-spec.summary  = 'A delightful iOS and OS X SkyerProject framework.'
+spec.summary  = 'Write their own library, or to use at ordinary times convenient methods are kept in it after use'
 spec.homepage = 'https://github.com/274077005'
 spec.authors  = { '274077005@qq.com' => 'skyer' }
 spec.ios.deployment_target = '8.0'
@@ -20,7 +20,7 @@ spec.subspec 'skTools' do |sk|
 sk.source_files = 'SkyerProject/SkyerTools/skTools/*.{h,m}'
 sk.public_header_files = 'SkyerProject/SkyerTools/skTools/*.h'
 sk.dependency 'MBProgressHUD'
-sk.frameworks = 'UIKit' ,'AVFoundation'
+sk.frameworks = 'UIKit' ,'AVFoundation','CoreLocation'
 end
 
 #文件描述详情请打开 http://www.jianshu.com/p/f841e248bc4f

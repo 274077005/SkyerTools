@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface VoiceTool : NSObject
+@interface SkVoiceTool : NSObject
 
 +(instancetype)sharedInstance;
 

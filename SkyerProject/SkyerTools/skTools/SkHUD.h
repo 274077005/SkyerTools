@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "SkToast.h"
 #import "MBProgressHUD.h"
-#import "SkyerGetVisibleViewController.h"
+#import "SkMacro.h"
 
 
 
-@interface SkyerHUD : NSObject
+@interface SkHUD : NSObject
 
 /**
  显示吐司

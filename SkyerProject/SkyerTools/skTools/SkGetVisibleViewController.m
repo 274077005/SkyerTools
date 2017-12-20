@@ -6,10 +6,10 @@
 //  Copyright © 2016年 odier. All rights reserved.
 //
 
-#import "SkyerGetVisibleViewController.h"
+#import "SkGetVisibleViewController.h"
 
-@implementation SkyerGetVisibleViewController
-SkyerSingletonM(SkyerGetVisibleViewController)
+@implementation SkGetVisibleViewController
+SkyerSingletonM(SkGetVisibleViewController)
 
 - (UIViewController *)skyerVisibleViewController {
     UIViewController *rootViewController =[[[[UIApplication sharedApplication] delegate] window] rootViewController];
@@ -31,21 +31,5 @@ SkyerSingletonM(SkyerGetVisibleViewController)
 }
 
 
-- (UIViewController*)skyerTopViewControllerWithRootViewController:(UIViewController*)rootViewController {
-    
-    if ([rootViewController isKindOfClass:[UITabBarController class]]) {
-        UITabBarController* tabBarController = (UITabBarController*)rootViewController;
-        return [self skyerTopViewControllerWithRootViewController:tabBarController.selectedViewController];
-    } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-        UINavigationController* navigationController = (UINavigationController*)rootViewController;
-        return [self skyerTopViewControllerWithRootViewController:navigationController.visibleViewController];
-    } else if (rootViewController.presentedViewController) {
-        UIViewController* presentedViewController = rootViewController.presentedViewController;
-        return [self skyerTopViewControllerWithRootViewController:presentedViewController];
-    } else {
-        return rootViewController;
-    }
-    
-}
 
 @end

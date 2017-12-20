@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SkyerGetVisibleViewController.h"
-#import "dataTool.h"
+//把经常用的导进来直接使用,不常用的使用到再导入
 #import "SkyerSingleton.h"
-#import "SkyerMacro.h"
-#import "SkDataOperation.h"
-#import "skClassMethod.h"
-#import "VoiceTool.h"
-#import "SkyerHUD.h"
-#import "SkScollPageView.h"
+#import "SkMacro.h"
+#import "SkClassMethod.h"
+#import "SkHUD.h"

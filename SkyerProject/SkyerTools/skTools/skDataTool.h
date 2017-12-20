@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface dataTool : NSObject
+@interface SkDataTool : NSObject
 
 
 

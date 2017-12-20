@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SkyerTools.h"
+#import "SkLocation.h"
 
 
 @interface ViewController ()
@@ -20,8 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    dataTool *data=[dataTool new];
-    NSLog(@"%@",data);
+    SkLocation.sharedSkLocation.skInitMannager().skStopUpdateLocation().locations = ^(NSArray *locations) {
+        NSLog(@"%@",locations);
+    };
+    
     
 }
 
@@ -30,6 +32,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+}
 
 @end

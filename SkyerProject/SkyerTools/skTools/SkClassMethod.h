@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SkyerGetVisibleViewController.h"
+#import "SkMacro.h"
 
-@interface skClassMethod : NSObject
+@interface SkClassMethod : NSObject
 
 /**
  UIAlertView的类方法

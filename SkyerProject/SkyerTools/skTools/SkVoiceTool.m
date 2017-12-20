@@ -6,10 +6,10 @@
 //  Copyright © 2017年 skyer. All rights reserved.
 //
 
-#import "VoiceTool.h"
+#import "SkVoiceTool.h"
 
 
-@implementation VoiceTool
+@implementation SkVoiceTool
 {
     SystemSoundID soundID;//系统声音ID
     

@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-
+#import "SkGetVisibleViewController.h"
 #import <UIKit/UIKit.h>
 
 //字符串是否为空
@@ -78,7 +77,8 @@
 //#define NSLog(...)
 //#endif
 
-
+//直接获取当前的控制器
+#define skVSView [[SkGetVisibleViewController sharedSkGetVisibleViewController] skyerVisibleViewController]
 
 //颜色
 #define skRGBColor(r, g, b)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
@@ -98,7 +98,7 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 #define kStrongSelf(type) __strong typeof(type) type = weak##type;
 //打印当前方法的名称
 #define ITTDPRINTMETHODNAME() ITTDPRINT(@"%s", __PRETTY_FUNCTION__)
-@interface SkyerMacro : NSObject
+@interface SkMacro : NSObject
 
 @end
 

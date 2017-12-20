@@ -6,9 +6,9 @@
 //  Copyright © 2016年 skyer. All rights reserved.
 //
 
-#import "SkyerHUD.h"
+#import "SkHUD.h"
 static MBProgressHUD *HUD;
-@implementation SkyerHUD
+@implementation SkHUD
 +(void)skyerShowToast:(NSString *)title{
     [SkToast SkToastShow:title withHight:200];
 }
@@ -20,8 +20,8 @@ static MBProgressHUD *HUD;
     [HUD showAnimated:YES];
 }
 +(void) skyerShowProgOnView:(NSString *)title{
-    UIViewController *visible=[[SkyerGetVisibleViewController sharedSkyerGetVisibleViewController] skyerVisibleViewController];
-    HUD = [[MBProgressHUD alloc] initWithView:visible.view];
+    
+    HUD = [[MBProgressHUD alloc] initWithView:skVSView.view];
     [[UIApplication sharedApplication].keyWindow addSubview:HUD];
     HUD.label.text = title;
     [HUD showAnimated:YES];
