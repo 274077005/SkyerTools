@@ -18,7 +18,6 @@
 		B635720A1FE90ACC00F26023 /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571FD1FE90ACB00F26023 /* SkToast.m */; };
 		B635720B1FE90ACC00F26023 /* SkVoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63571FF1FE90ACB00F26023 /* SkVoiceTool.m */; };
 		B635720C1FE90ACC00F26023 /* SkHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63572001FE90ACB00F26023 /* SkHUD.m */; };
-		B635720D1FE90ACC00F26023 /* SkDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63572011FE90ACB00F26023 /* SkDataTool.m */; };
 		B635720E1FE90ACC00F26023 /* SkGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63572041FE90ACC00F26023 /* SkGetVisibleViewController.m */; };
 		B635720F1FE90ACC00F26023 /* SkClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63572051FE90ACC00F26023 /* SkClassMethod.m */; };
 		B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2D0C1FB2A52E002F6459 /* AppDelegate.m */; };
@@ -30,6 +29,7 @@
 		B6D248BA1FEA2F8B000FDC2A /* SkLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D248B91FEA2F8B000FDC2A /* SkLocation.m */; };
 		B6D248BD1FEA3C9C000FDC2A /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D248BC1FEA3C9C000FDC2A /* WGS84TOGCJ02.m */; };
 		B6D248C01FEA3CDF000FDC2A /* SkDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D248BF1FEA3CDE000FDC2A /* SkDate.m */; };
+		B6D248C31FEA4580000FDC2A /* SkDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D248C21FEA4580000FDC2A /* SkDataTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,6 @@
 		B63571FD1FE90ACB00F26023 /* SkToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkToast.m; sourceTree = "<group>"; };
 		B63571FF1FE90ACB00F26023 /* SkVoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkVoiceTool.m; sourceTree = "<group>"; };
 		B63572001FE90ACB00F26023 /* SkHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkHUD.m; sourceTree = "<group>"; };
-		B63572011FE90ACB00F26023 /* SkDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataTool.m; sourceTree = "<group>"; };
 		B63572021FE90ACB00F26023 /* SkVoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVoiceTool.h; sourceTree = "<group>"; };
 		B63572041FE90ACC00F26023 /* SkGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkGetVisibleViewController.m; sourceTree = "<group>"; };
 		B63572051FE90ACC00F26023 /* SkClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkClassMethod.m; sourceTree = "<group>"; };
@@ -72,7 +71,6 @@
 		B65D2D1A1FB2A52F002F6459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B66CBE511FB3ECA5003ACC99 /* SkyerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
 		B66CBE551FB3F2DB003ACC99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B6D248B51FEA13EA000FDC2A /* SkDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataTool.h; sourceTree = "<group>"; };
 		B6D248B61FEA14D6000FDC2A /* SkClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClassMethod.h; sourceTree = "<group>"; };
 		B6D248B81FEA2F8B000FDC2A /* SkLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLocation.h; sourceTree = "<group>"; };
 		B6D248B91FEA2F8B000FDC2A /* SkLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkLocation.m; sourceTree = "<group>"; };
@@ -80,6 +78,8 @@
 		B6D248BC1FEA3C9C000FDC2A /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
 		B6D248BE1FEA3CDE000FDC2A /* SkDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDate.h; sourceTree = "<group>"; };
 		B6D248BF1FEA3CDE000FDC2A /* SkDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDate.m; sourceTree = "<group>"; };
+		B6D248C11FEA4580000FDC2A /* SkDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkDataTool.h; sourceTree = "<group>"; };
+		B6D248C21FEA4580000FDC2A /* SkDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkDataTool.m; sourceTree = "<group>"; };
 		B915E7FDB62851FC905732BF /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,8 +104,6 @@
 				B6D248BC1FEA3C9C000FDC2A /* WGS84TOGCJ02.m */,
 				B6D248B81FEA2F8B000FDC2A /* SkLocation.h */,
 				B6D248B91FEA2F8B000FDC2A /* SkLocation.m */,
-				B6D248B51FEA13EA000FDC2A /* SkDataTool.h */,
-				B63572011FE90ACB00F26023 /* SkDataTool.m */,
 				B63572051FE90ACC00F26023 /* SkClassMethod.m */,
 				B6D248B61FEA14D6000FDC2A /* SkClassMethod.h */,
 				B63571F91FE90ACB00F26023 /* SkDataOperation.h */,
@@ -124,6 +122,8 @@
 				B63571FF1FE90ACB00F26023 /* SkVoiceTool.m */,
 				B6D248BE1FEA3CDE000FDC2A /* SkDate.h */,
 				B6D248BF1FEA3CDE000FDC2A /* SkDate.m */,
+				B6D248C11FEA4580000FDC2A /* SkDataTool.h */,
+				B6D248C21FEA4580000FDC2A /* SkDataTool.m */,
 			);
 			path = skTools;
 			sourceTree = "<group>";
@@ -346,9 +346,9 @@
 				B6D248C01FEA3CDF000FDC2A /* SkDate.m in Sources */,
 				B63571F41FE9001200F26023 /* UIButton+ClickBlock.m in Sources */,
 				B63572081FE90ACC00F26023 /* SkDataOperation.m in Sources */,
+				B6D248C31FEA4580000FDC2A /* SkDataTool.m in Sources */,
 				B63571F31FE9001200F26023 /* NSString+skStrWidth.m in Sources */,
 				B65D2D0D1FB2A52E002F6459 /* AppDelegate.m in Sources */,
-				B635720D1FE90ACC00F26023 /* SkDataTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,14 @@
 //
-//  dataTool.m
-//  LiteGuardian
+//  SkDataTool.m
+//  SkyerProject
 //
-//  Created by SoKing on 2017/5/2.
-//  Copyright © 2017年 Castelecom. All rights reserved.
+//  Created by SoKing on 2017/12/20.
+//  Copyright © 2017年 skyer. All rights reserved.
 //
 
 #import "SkDataTool.h"
 
-
 @implementation SkDataTool
-
-
 #pragma mark - 数据类型转换
 //byte[]转data
 +(NSData *)byteToData:(Byte *)byte andByteLength:(int)byteLength{
@@ -244,5 +241,4 @@
     return unicodeString;
     
 }
-
 @end
