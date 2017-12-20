@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name     = 'SkyerTools'
-spec.version  = '1.1.3'
+spec.version  = '1.1.4'
 spec.license  = 'MIT'
 spec.summary  = 'Write their own library, or to use at ordinary times convenient methods are kept in it after use'
 spec.homepage = 'https://github.com/274077005'
