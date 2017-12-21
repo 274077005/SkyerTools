@@ -80,6 +80,7 @@
 		B63C63EC1FEA5B460000CF3D /* SkyerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyerTools.h; sourceTree = "<group>"; };
 		B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
 		B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
+		B6B6F3031FEB5DC2000C2EA0 /* skCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skCategoryHeader.h; sourceTree = "<group>"; };
 		D3E02BB63AD2129618BBFBC1 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,14 +160,15 @@
 		B63C63CA1FEA5B460000CF3D /* skCategory */ = {
 			isa = PBXGroup;
 			children = (
-				B63C63CB1FEA5B460000CF3D /* NSObject+UserData.h */,
-				B63C63CC1FEA5B460000CF3D /* NSObject+UserData.m */,
-				B63C63CD1FEA5B460000CF3D /* NSString+skStrWidth.h */,
-				B63C63CE1FEA5B460000CF3D /* NSString+skStrWidth.m */,
-				B63C63CF1FEA5B460000CF3D /* UIButton+ClickBlock.h */,
-				B63C63D01FEA5B460000CF3D /* UIButton+ClickBlock.m */,
+				B6B6F3031FEB5DC2000C2EA0 /* skCategoryHeader.h */,
 				B63C63D11FEA5B460000CF3D /* UIView+skBoard.h */,
 				B63C63D21FEA5B460000CF3D /* UIView+skBoard.m */,
+				B63C63CB1FEA5B460000CF3D /* NSObject+UserData.h */,
+				B63C63CC1FEA5B460000CF3D /* NSObject+UserData.m */,
+				B63C63CF1FEA5B460000CF3D /* UIButton+ClickBlock.h */,
+				B63C63D01FEA5B460000CF3D /* UIButton+ClickBlock.m */,
+				B63C63CD1FEA5B460000CF3D /* NSString+skStrWidth.h */,
+				B63C63CE1FEA5B460000CF3D /* NSString+skStrWidth.m */,
 			);
 			path = skCategory;
 			sourceTree = "<group>";
@@ -174,33 +176,33 @@
 		B63C63D31FEA5B460000CF3D /* skTools */ = {
 			isa = PBXGroup;
 			children = (
+				B63C63EC1FEA5B460000CF3D /* SkyerTools.h */,
+				B63C63E21FEA5B460000CF3D /* SkMacro.h */,
+				B63C63DA1FEA5B460000CF3D /* SkDate.h */,
+				B63C63DB1FEA5B460000CF3D /* SkDate.m */,
+				B63C63DE1FEA5B460000CF3D /* SkHUD.h */,
+				B63C63DF1FEA5B460000CF3D /* SkHUD.m */,
+				B63C63E71FEA5B460000CF3D /* SkToast.h */,
+				B63C63E81FEA5B460000CF3D /* SkToast.m */,
+				B63C63E01FEA5B460000CF3D /* SkLocation.h */,
+				B63C63E11FEA5B460000CF3D /* SkLocation.m */,
+				B63C63E91FEA5B460000CF3D /* SkVoiceTool.h */,
+				B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */,
+				B63C63E31FEA5B460000CF3D /* SkPageViews.h */,
+				B63C63E41FEA5B460000CF3D /* SkPageViews.m */,
 				B63C63D41FEA5B460000CF3D /* SkChildViews.h */,
 				B63C63D51FEA5B460000CF3D /* SkChildViews.m */,
 				B63C63D61FEA5B460000CF3D /* SkClassMethod.h */,
+				B63C63EB1FEA5B460000CF3D /* SkyerSingleton.h */,
+				B63C63E51FEA5B460000CF3D /* SkProtocolData.h */,
+				B63C63E61FEA5B460000CF3D /* SkProtocolData.m */,
 				B63C63D71FEA5B460000CF3D /* SkClassMethod.m */,
 				B63C63D81FEA5B460000CF3D /* SkDataOperation.h */,
 				B63C63D91FEA5B460000CF3D /* SkDataOperation.m */,
-				B63C63DA1FEA5B460000CF3D /* SkDate.h */,
-				B63C63DB1FEA5B460000CF3D /* SkDate.m */,
-				B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */,
-				B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */,
-				B63C63DE1FEA5B460000CF3D /* SkHUD.h */,
-				B63C63DF1FEA5B460000CF3D /* SkHUD.m */,
-				B63C63E01FEA5B460000CF3D /* SkLocation.h */,
-				B63C63E11FEA5B460000CF3D /* SkLocation.m */,
-				B63C63E21FEA5B460000CF3D /* SkMacro.h */,
-				B63C63E31FEA5B460000CF3D /* SkPageViews.h */,
-				B63C63E41FEA5B460000CF3D /* SkPageViews.m */,
-				B63C63E51FEA5B460000CF3D /* SkProtocolData.h */,
-				B63C63E61FEA5B460000CF3D /* SkProtocolData.m */,
-				B63C63E71FEA5B460000CF3D /* SkToast.h */,
-				B63C63E81FEA5B460000CF3D /* SkToast.m */,
-				B63C63E91FEA5B460000CF3D /* SkVoiceTool.h */,
-				B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */,
-				B63C63EB1FEA5B460000CF3D /* SkyerSingleton.h */,
-				B63C63EC1FEA5B460000CF3D /* SkyerTools.h */,
 				B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */,
 				B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */,
+				B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */,
+				B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */,
 			);
 			path = skTools;
 			sourceTree = "<group>";

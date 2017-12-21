@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-//把经常用的导进来直接使用,不常用的使用到再导入
-#import "SkyerSingleton.h"
-#import "SkMacro.h"
 #import "SkHUD.h"
+#import "SkDate.h"
+#import "SkLocation.h"
+#import "SkPageViews.h"
+#import "SkChildViews.h"
+#import "SkClassMethod.h"
+#import "SkDataOperation.m"
+
+
