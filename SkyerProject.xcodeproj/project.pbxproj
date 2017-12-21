@@ -19,7 +19,6 @@
 		B63C63F21FEA5B460000CF3D /* UIView+skBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D21FEA5B460000CF3D /* UIView+skBoard.m */; };
 		B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D51FEA5B460000CF3D /* SkChildViews.m */; };
 		B63C63F41FEA5B460000CF3D /* SkClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D71FEA5B460000CF3D /* SkClassMethod.m */; };
-		B63C63F51FEA5B460000CF3D /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D91FEA5B460000CF3D /* SkDataOperation.m */; };
 		B63C63F61FEA5B460000CF3D /* SkDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DB1FEA5B460000CF3D /* SkDate.m */; };
 		B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */; };
 		B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DF1FEA5B460000CF3D /* SkHUD.m */; };
@@ -29,6 +28,7 @@
 		B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E81FEA5B460000CF3D /* SkToast.m */; };
 		B63C63FD1FEA5B460000CF3D /* SkVoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63EA1FEA5B460000CF3D /* SkVoiceTool.m */; };
 		B63C63FE1FEA5B460000CF3D /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */; };
+		B6B6F3081FEB6983000C2EA0 /* SkDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B6F3071FEB6983000C2EA0 /* SkDataOperation.m */; };
 		DD657844FA69D433F9F09AD9 /* libPods-SkyerProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA4CF4F4B20C676446C4C3D /* libPods-SkyerProject.a */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +57,6 @@
 		B63C63D51FEA5B460000CF3D /* SkChildViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkChildViews.m; sourceTree = "<group>"; };
 		B63C63D61FEA5B460000CF3D /* SkClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClassMethod.h; sourceTree = "<group>"; };
 		B63C63D71FEA5B460000CF3D /* SkClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkClassMethod.m; sourceTree = "<group>"; };
-		B63C63D81FEA5B460000CF3D /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
-		B63C63D91FEA5B460000CF3D /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
 		B63C63DA1FEA5B460000CF3D /* SkDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDate.h; sourceTree = "<group>"; };
 		B63C63DB1FEA5B460000CF3D /* SkDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDate.m; sourceTree = "<group>"; };
 		B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGetVisibleViewController.h; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
 		B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
 		B6B6F3031FEB5DC2000C2EA0 /* skCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skCategoryHeader.h; sourceTree = "<group>"; };
+		B6B6F3061FEB6983000C2EA0 /* SkDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataOperation.h; sourceTree = "<group>"; };
+		B6B6F3071FEB6983000C2EA0 /* SkDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDataOperation.m; sourceTree = "<group>"; };
 		D3E02BB63AD2129618BBFBC1 /* Pods-SkyerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,13 +192,13 @@
 				B63C63E41FEA5B460000CF3D /* SkPageViews.m */,
 				B63C63D41FEA5B460000CF3D /* SkChildViews.h */,
 				B63C63D51FEA5B460000CF3D /* SkChildViews.m */,
-				B63C63D61FEA5B460000CF3D /* SkClassMethod.h */,
 				B63C63EB1FEA5B460000CF3D /* SkyerSingleton.h */,
 				B63C63E51FEA5B460000CF3D /* SkProtocolData.h */,
 				B63C63E61FEA5B460000CF3D /* SkProtocolData.m */,
+				B63C63D61FEA5B460000CF3D /* SkClassMethod.h */,
 				B63C63D71FEA5B460000CF3D /* SkClassMethod.m */,
-				B63C63D81FEA5B460000CF3D /* SkDataOperation.h */,
-				B63C63D91FEA5B460000CF3D /* SkDataOperation.m */,
+				B6B6F3061FEB6983000C2EA0 /* SkDataOperation.h */,
+				B6B6F3071FEB6983000C2EA0 /* SkDataOperation.m */,
 				B63C63ED1FEA5B460000CF3D /* WGS84TOGCJ02.h */,
 				B63C63EE1FEA5B460000CF3D /* WGS84TOGCJ02.m */,
 				B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */,
@@ -336,6 +336,7 @@
 				B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */,
 				B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */,
 				B63C63C31FEA59DF0000CF3D /* main.m in Sources */,
+				B6B6F3081FEB6983000C2EA0 /* SkDataOperation.m in Sources */,
 				B63C63F11FEA5B460000CF3D /* UIButton+ClickBlock.m in Sources */,
 				B63C63EF1FEA5B460000CF3D /* NSObject+UserData.m in Sources */,
 				B63C63FB1FEA5B460000CF3D /* SkProtocolData.m in Sources */,
@@ -345,7 +346,6 @@
 				B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */,
 				B63C63FE1FEA5B460000CF3D /* WGS84TOGCJ02.m in Sources */,
 				B63C63FA1FEA5B460000CF3D /* SkPageViews.m in Sources */,
-				B63C63F51FEA5B460000CF3D /* SkDataOperation.m in Sources */,
 				B63C63F21FEA5B460000CF3D /* UIView+skBoard.m in Sources */,
 				B63C63F01FEA5B460000CF3D /* NSString+skStrWidth.m in Sources */,
 				B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */,
