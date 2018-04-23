@@ -1,24 +1,25 @@
 //
 //  WGS84TOGCJ02.h
-//  odierBike2015
+//  GpsTest
 //
-//  Created by ODIER on 15/9/24.
-//  Copyright © 2015年 odier. All rights reserved.
+//  Created by BlueBud on 14-6-13.
+//
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h> 
 
 @interface WGS84TOGCJ02 : NSObject
+
 /**
- *  @brief  世界标准地理坐标(WGS-84) 转换成 中国国测局地理坐标（GCJ-02）<火星坐标>
- *
- *  ####只在中国大陆的范围的坐标有效，以外直接返回世界标准坐标
- *
- *  @param  location    世界标准地理坐标(WGS-84)
- *
- *  @return 中国国测局地理坐标（GCJ-02）<火星坐标>
- */
+*  @brief  世界标准地理坐标(WGS-84) 转换成 中国国测局地理坐标（GCJ-02）<火星坐标>
+*
+*  ####只在中国大陆的范围的坐标有效，以外直接返回世界标准坐标
+*
+*  @param  location    世界标准地理坐标(WGS-84)
+*
+*  @return 中国国测局地理坐标（GCJ-02）<火星坐标>
+*/
 + (CLLocationCoordinate2D)wgs84ToGcj02:(CLLocationCoordinate2D)location;
 
 
