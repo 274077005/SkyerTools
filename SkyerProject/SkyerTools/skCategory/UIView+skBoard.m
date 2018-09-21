@@ -17,6 +17,7 @@
     self.layer.masksToBounds=YES;
     self.layer.borderWidth=Width;
     self.layer.borderColor=[borderColor CGColor];
+    
 }
 
 #pragma mark - 自定义动画

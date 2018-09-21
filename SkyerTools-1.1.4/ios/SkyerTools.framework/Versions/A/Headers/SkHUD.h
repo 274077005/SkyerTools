@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SkToast.h"
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD.h"
 #import "SkMacro.h"
 
 

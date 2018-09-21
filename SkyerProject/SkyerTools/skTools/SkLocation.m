@@ -14,17 +14,17 @@ SkyerSingletonM(SkLocation)
 -(SkLocation *(^)(void))skInitMannager{
     return ^id{
         //定位管理器
-        _locationManager=[[CLLocationManager alloc]init];
+        self.locationManager=[[CLLocationManager alloc]init];
         //设置允许后台定位参数，保持不会被系统挂起
-        [_locationManager setPausesLocationUpdatesAutomatically:YES];
+        [self.locationManager setPausesLocationUpdatesAutomatically:YES];
         //iOS9(含)以上系统需设置
-        [_locationManager setAllowsBackgroundLocationUpdates:YES];
+        [self.locationManager setAllowsBackgroundLocationUpdates:YES];
         //允许持续定位
-        [_locationManager requestAlwaysAuthorization];
+        [self.locationManager requestAlwaysAuthorization];
         //设置代理
-        _locationManager.delegate=self;
+        self.locationManager.delegate=self;
         //设置定位精度
-        _locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+        self.locationManager.desiredAccuracy=kCLLocationAccuracyBest;
         
         return self;
     };
@@ -33,7 +33,7 @@ SkyerSingletonM(SkLocation)
 -(SkLocation *(^)(void))skStarUpdateLocation{
     return ^id{
         
-        [_locationManager startUpdatingLocation];
+        [self.locationManager startUpdatingLocation];
         
         return self;
     };
@@ -41,15 +41,16 @@ SkyerSingletonM(SkLocation)
 
 -(SkLocation *(^)(void))skStopUpdateLocation{
     return ^id{
-        [_locationManager stopUpdatingLocation];
+        [self.locationManager stopUpdatingLocation];
         return self;
     };
 }
 
 #pragma mark 获取位置信息
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
-    if (_locations) {
-        _locations(locations);
+    
+    if (self.locations) {
+        self.locations(locations);
     }
 }
 

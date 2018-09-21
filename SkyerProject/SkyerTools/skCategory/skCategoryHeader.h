@@ -6,7 +6,7 @@
 //  Copyright © 2017年 skyer. All rights reserved.
 //
 
-#import "NSString+skStrWidth.h"
+
 #import "NSObject+UserData.h"
 #import "UIButton+ClickBlock.h"
 #import "UIView+skBoard.h"

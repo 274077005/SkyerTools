@@ -1,0 +1,6 @@
+framework module SkyerTools {
+  umbrella header "SkyerTools.h"
+
+  export *
+  module * { export * }
+}
