@@ -28,6 +28,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [skImagePicker showImagePickerFromViewController:self allowsEditing:NO finishAction:^(UIImage *image) {
+        NSData *imageData=UIImageJPEGRepresentation(image,1);
+        NSString *imageSize=[NSByteCountFormatter stringFromByteCount:imageData.length countStyle:NSByteCountFormatterCountStyleFile];
+        
+    }];
+}
 
 @end

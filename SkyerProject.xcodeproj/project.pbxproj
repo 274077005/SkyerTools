@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C712C322B8DBD9007A0D17 /* skImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C712C222B8DBD9007A0D17 /* skImagePicker.m */; };
 		B63C63B51FEA59DF0000CF3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B41FEA59DF0000CF3D /* AppDelegate.m */; };
 		B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B71FEA59DF0000CF3D /* ViewController.m */; };
 		B63C63BB1FEA59DF0000CF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63C63B91FEA59DF0000CF3D /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84C712C122B8DBD9007A0D17 /* skImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skImagePicker.h; sourceTree = "<group>"; };
+		84C712C222B8DBD9007A0D17 /* skImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skImagePicker.m; sourceTree = "<group>"; };
 		9034C3658A1AD1B57B818832 /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
 		9CA4CF4F4B20C676446C4C3D /* libPods-SkyerProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyerProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C63B01FEA59DF0000CF3D /* SkyerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +179,8 @@
 		B63C63D31FEA5B460000CF3D /* skTools */ = {
 			isa = PBXGroup;
 			children = (
+				84C712C122B8DBD9007A0D17 /* skImagePicker.h */,
+				84C712C222B8DBD9007A0D17 /* skImagePicker.m */,
 				B63C63EC1FEA5B460000CF3D /* SkyerTools.h */,
 				B63C63E21FEA5B460000CF3D /* SkMacro.h */,
 				B63C63DA1FEA5B460000CF3D /* SkDate.h */,
@@ -333,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */,
+				84C712C322B8DBD9007A0D17 /* skImagePicker.m in Sources */,
 				B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */,
 				B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */,
 				B63C63C31FEA59DF0000CF3D /* main.m in Sources */,

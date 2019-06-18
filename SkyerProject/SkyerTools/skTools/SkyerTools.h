@@ -12,6 +12,7 @@
 #import "SkLocation.h"
 #import "SkPageViews.h"
 #import "SkChildViews.h"
+#import "skImagePicker.h"
 #import "SkClassMethod.h"
 
 

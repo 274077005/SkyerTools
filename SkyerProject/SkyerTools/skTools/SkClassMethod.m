@@ -23,4 +23,23 @@
     [alert addAction:sure];
     [skVSView presentViewController:alert animated:YES completion:nil];
 }
+
++(void)skAlerView:(NSString *)title message:(NSString *)message cancalTitle:(NSString*)cancalTitle{
+    
+    UIAlertController *alert=[UIAlertController alertControllerWithTitle:title message:message preferredStyle:1];
+    UIAlertAction *cancal=[UIAlertAction actionWithTitle:cancalTitle style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [alert addAction:cancal];
+    [skVSView presentViewController:alert animated:YES completion:nil];
+}
++(void)skAlerView:(NSString *)title message:(NSString *)message  sureTitle:(NSString*)sureTitle sureBlock:(void(^)(void))sureBlock{
+    
+    UIAlertController *alert=[UIAlertController alertControllerWithTitle:title message:message preferredStyle:1];
+    UIAlertAction *sure=[UIAlertAction actionWithTitle:sureTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        sureBlock();
+    }];
+    [alert addAction:sure];
+    [skVSView presentViewController:alert animated:YES completion:nil];
+}
 @end
