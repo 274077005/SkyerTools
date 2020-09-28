@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84643F2C2521D6530080B166 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F222521D6530080B166 /* DetailController.m */; };
+		84643F2D2521D6530080B166 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F232521D6530080B166 /* Tools.m */; };
+		84643F2E2521D6530080B166 /* TKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F242521D6530080B166 /* TKTextView.m */; };
+		84643F2F2521D6530080B166 /* CategoryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F252521D6530080B166 /* CategoryListController.m */; };
+		84643F302521D6530080B166 /* skRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F262521D6530080B166 /* skRootViewController.m */; };
+		84643F332521D68A0080B166 /* UIViewController+JJAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84643F322521D68A0080B166 /* UIViewController+JJAddViewController.m */; };
 		84C712C322B8DBD9007A0D17 /* skImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C712C222B8DBD9007A0D17 /* skImagePicker.m */; };
 		B63C63B51FEA59DF0000CF3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B41FEA59DF0000CF3D /* AppDelegate.m */; };
 		B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63B71FEA59DF0000CF3D /* ViewController.m */; };
@@ -22,7 +28,6 @@
 		B63C63F41FEA5B460000CF3D /* SkClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63D71FEA5B460000CF3D /* SkClassMethod.m */; };
 		B63C63F61FEA5B460000CF3D /* SkDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DB1FEA5B460000CF3D /* SkDate.m */; };
 		B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */; };
-		B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63DF1FEA5B460000CF3D /* SkHUD.m */; };
 		B63C63F91FEA5B460000CF3D /* SkLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E11FEA5B460000CF3D /* SkLocation.m */; };
 		B63C63FA1FEA5B460000CF3D /* SkPageViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E41FEA5B460000CF3D /* SkPageViews.m */; };
 		B63C63FB1FEA5B460000CF3D /* SkProtocolData.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C63E61FEA5B460000CF3D /* SkProtocolData.m */; };
@@ -34,6 +39,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84643F222521D6530080B166 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		84643F232521D6530080B166 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		84643F242521D6530080B166 /* TKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTextView.m; sourceTree = "<group>"; };
+		84643F252521D6530080B166 /* CategoryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListController.m; sourceTree = "<group>"; };
+		84643F262521D6530080B166 /* skRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skRootViewController.m; sourceTree = "<group>"; };
+		84643F272521D6530080B166 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		84643F282521D6530080B166 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		84643F292521D6530080B166 /* CategoryListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListController.h; sourceTree = "<group>"; };
+		84643F2A2521D6530080B166 /* TKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTextView.h; sourceTree = "<group>"; };
+		84643F2B2521D6530080B166 /* skRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skRootViewController.h; sourceTree = "<group>"; };
+		84643F312521D68A0080B166 /* UIViewController+JJAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJAddViewController.h"; sourceTree = "<group>"; };
+		84643F322521D68A0080B166 /* UIViewController+JJAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJAddViewController.m"; sourceTree = "<group>"; };
 		84C712C122B8DBD9007A0D17 /* skImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skImagePicker.h; sourceTree = "<group>"; };
 		84C712C222B8DBD9007A0D17 /* skImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skImagePicker.m; sourceTree = "<group>"; };
 		9034C3658A1AD1B57B818832 /* Pods-SkyerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyerProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +81,6 @@
 		B63C63DB1FEA5B460000CF3D /* SkDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkDate.m; sourceTree = "<group>"; };
 		B63C63DC1FEA5B460000CF3D /* SkGetVisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGetVisibleViewController.h; sourceTree = "<group>"; };
 		B63C63DD1FEA5B460000CF3D /* SkGetVisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkGetVisibleViewController.m; sourceTree = "<group>"; };
-		B63C63DE1FEA5B460000CF3D /* SkHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHUD.h; sourceTree = "<group>"; };
-		B63C63DF1FEA5B460000CF3D /* SkHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkHUD.m; sourceTree = "<group>"; };
 		B63C63E01FEA5B460000CF3D /* SkLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLocation.h; sourceTree = "<group>"; };
 		B63C63E11FEA5B460000CF3D /* SkLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkLocation.m; sourceTree = "<group>"; };
 		B63C63E21FEA5B460000CF3D /* SkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMacro.h; sourceTree = "<group>"; };
@@ -116,6 +131,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		84643F212521D6530080B166 /* notes */ = {
+			isa = PBXGroup;
+			children = (
+				84643F312521D68A0080B166 /* UIViewController+JJAddViewController.h */,
+				84643F322521D68A0080B166 /* UIViewController+JJAddViewController.m */,
+				84643F222521D6530080B166 /* DetailController.m */,
+				84643F232521D6530080B166 /* Tools.m */,
+				84643F242521D6530080B166 /* TKTextView.m */,
+				84643F252521D6530080B166 /* CategoryListController.m */,
+				84643F262521D6530080B166 /* skRootViewController.m */,
+				84643F272521D6530080B166 /* Tools.h */,
+				84643F282521D6530080B166 /* DetailController.h */,
+				84643F292521D6530080B166 /* CategoryListController.h */,
+				84643F2A2521D6530080B166 /* TKTextView.h */,
+				84643F2B2521D6530080B166 /* skRootViewController.h */,
+			);
+			path = notes;
+			sourceTree = "<group>";
+		};
 		B63C63A71FEA59DF0000CF3D = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +188,7 @@
 		B63C63C91FEA5B460000CF3D /* SkyerTools */ = {
 			isa = PBXGroup;
 			children = (
+				84643F212521D6530080B166 /* notes */,
 				B63C63CA1FEA5B460000CF3D /* skCategory */,
 				B63C63D31FEA5B460000CF3D /* skTools */,
 			);
@@ -185,8 +220,6 @@
 				B63C63E21FEA5B460000CF3D /* SkMacro.h */,
 				B63C63DA1FEA5B460000CF3D /* SkDate.h */,
 				B63C63DB1FEA5B460000CF3D /* SkDate.m */,
-				B63C63DE1FEA5B460000CF3D /* SkHUD.h */,
-				B63C63DF1FEA5B460000CF3D /* SkHUD.m */,
 				B63C63E71FEA5B460000CF3D /* SkToast.h */,
 				B63C63E81FEA5B460000CF3D /* SkToast.m */,
 				B63C63E01FEA5B460000CF3D /* SkLocation.h */,
@@ -223,8 +256,6 @@
 				B63C63AC1FEA59DF0000CF3D /* Sources */,
 				B63C63AD1FEA59DF0000CF3D /* Frameworks */,
 				B63C63AE1FEA59DF0000CF3D /* Resources */,
-				2C1F05A38C2C80872D0B949A /* [CP] Embed Pods Frameworks */,
-				CFC117D8B07B2C52B4F4D08E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,21 +313,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C1F05A38C2C80872D0B949A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7B96AA279F2CD17FAF1B2CD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,21 +331,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CFC117D8B07B2C52B4F4D08E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyerProject/Pods-SkyerProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -338,22 +339,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63C63B81FEA59DF0000CF3D /* ViewController.m in Sources */,
+				84643F2F2521D6530080B166 /* CategoryListController.m in Sources */,
 				84C712C322B8DBD9007A0D17 /* skImagePicker.m in Sources */,
+				84643F332521D68A0080B166 /* UIViewController+JJAddViewController.m in Sources */,
 				B63C63F31FEA5B460000CF3D /* SkChildViews.m in Sources */,
 				B63C63FC1FEA5B460000CF3D /* SkToast.m in Sources */,
 				B63C63C31FEA59DF0000CF3D /* main.m in Sources */,
+				84643F302521D6530080B166 /* skRootViewController.m in Sources */,
 				B6B6F3081FEB6983000C2EA0 /* SkDataOperation.m in Sources */,
 				B63C63F11FEA5B460000CF3D /* UIButton+ClickBlock.m in Sources */,
+				84643F2D2521D6530080B166 /* Tools.m in Sources */,
 				B63C63EF1FEA5B460000CF3D /* NSObject+UserData.m in Sources */,
 				B63C63FB1FEA5B460000CF3D /* SkProtocolData.m in Sources */,
 				B63C63B51FEA59DF0000CF3D /* AppDelegate.m in Sources */,
 				B63C63F91FEA5B460000CF3D /* SkLocation.m in Sources */,
+				84643F2E2521D6530080B166 /* TKTextView.m in Sources */,
 				B63C63F41FEA5B460000CF3D /* SkClassMethod.m in Sources */,
-				B63C63F81FEA5B460000CF3D /* SkHUD.m in Sources */,
 				B63C63FE1FEA5B460000CF3D /* WGS84TOGCJ02.m in Sources */,
 				B63C63FA1FEA5B460000CF3D /* SkPageViews.m in Sources */,
 				B63C63F21FEA5B460000CF3D /* UIView+skBoard.m in Sources */,
 				B63C63F01FEA5B460000CF3D /* NSString+skStrWidth.m in Sources */,
+				84643F2C2521D6530080B166 /* DetailController.m in Sources */,
 				B63C63F71FEA5B460000CF3D /* SkGetVisibleViewController.m in Sources */,
 				B63C63FD1FEA5B460000CF3D /* SkVoiceTool.m in Sources */,
 				B63C63F61FEA5B460000CF3D /* SkDate.m in Sources */,
@@ -492,7 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F474Y7ZN3P;
+				DEVELOPMENT_TEAM = 52U9H7K263;
 				INFOPLIST_FILE = SkyerProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -508,7 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F474Y7ZN3P;
+				DEVELOPMENT_TEAM = 52U9H7K263;
 				INFOPLIST_FILE = SkyerProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
