@@ -11,14 +11,14 @@
 #import <UIKit/UIKit.h>
 
 //字符串是否为空
-#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+#define skStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
 //数组是否为空
-#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+#define skArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
 
 //字典是否为空
-#define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+#define skDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
 //是否是空对象
-#define kObjectIsEmpty(_object) (_object == nil \
+#define skObjectIsEmpty(_object) (_object == nil \
 || [_object isKindOfClass:[NSNull class]] \
 || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
 || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
@@ -34,27 +34,24 @@
 
 #define skScreenSize \
 ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? CGSizeMake([UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale,[UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale) : [UIScreen mainScreen].bounds.size)
-//获取屏幕 宽度、高度
-#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
-#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
 //一些常用的缩写
-#define kApplication        [UIApplication sharedApplication]
-#define kKeyWindow          [UIApplication sharedApplication].keyWindow
-#define kAppDelegate        [UIApplication sharedApplication].delegate
-#define kUserDefaults      [NSUserDefaults standardUserDefaults]
-#define kNotificationCenter [NSNotificationCenter defaultCenter]
-
+#define skApplication        [UIApplication sharedApplication]
+#define skKeyWindow          [UIApplication sharedApplication].keyWindow
+#define skAppDelegate        [UIApplication sharedApplication].delegate
+#define skUserDefaults      [NSUserDefaults standardUserDefaults]
+#define skNotificationCenter [NSNotificationCenter defaultCenter]
+#
 //APP版本号
-#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define skAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 //系统版本号
-#define kSystemVersion [[UIDevice currentDevice] systemVersion]
+#define skSystemVersion [[UIDevice currentDevice] systemVersion]
 //获取沙盒Document路径
-#define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define skDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
 //获取沙盒temp路径
-#define kTempPath NSTemporaryDirectory()
+#define skTempPath NSTemporaryDirectory()
 //获取沙盒Cache路径
-#define kCachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+#define skCachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 
 //判断是真机还是模拟器
 #if TARGET_OS_IPHONE
@@ -83,21 +80,21 @@
 //颜色
 #define skRGBColor(r, g, b)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
-#define kRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define skRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
 //随机色生成
-#define kRandomColor    KRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
+#define skRandomColor    KRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
 //rgb颜色转换（16进制->10进制）
 #define skUIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
-#define kColorWithHex(rgbValue) \
+#define skColorWithHex(rgbValue) \
 [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
 green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
 blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 //弱引用/强引用
-#define kWeakSelf(type)  __weak typeof(type) weak##type = type;
-#define kStrongSelf(type) __strong typeof(type) type = weak##type;
+#define skWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define skStrongSelf(type) __strong typeof(type) type = weak##type;
 //打印当前方法的名称
-#define ITTDPRINTMETHODNAME() ITTDPRINT(@"%s", __PRETTY_FUNCTION__)
+#define skFunction() ITTDPRINT(@"%s", __PRETTY_FUNCTION__)
 @interface SkMacro : NSObject
 
 @end

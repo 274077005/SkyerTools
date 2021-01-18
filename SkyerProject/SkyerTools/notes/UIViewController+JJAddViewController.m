@@ -31,6 +31,9 @@
             UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:view];
             nav.modalPresentationStyle=UIModalPresentationFullScreen;
             [self presentViewController:nav animated:NO completion:nil];
+//            $ pod package SkyerTools.podspec --exclude-deps --no-mangle –bundle-identifier
+
+
         });
     });
 }

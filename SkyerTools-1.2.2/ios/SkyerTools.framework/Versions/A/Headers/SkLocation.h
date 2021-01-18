@@ -19,7 +19,7 @@ SkyerSingletonH(SkLocation)
 /**
  这个是需要获取的位置信息
  */
-@property (nonatomic,strong) void(^locations)(NSArray *locations);
+@property (nonatomic,strong) void(^locations)(NSArray<CLLocation *> *locations);
 
 /**
  先初始化再做事情

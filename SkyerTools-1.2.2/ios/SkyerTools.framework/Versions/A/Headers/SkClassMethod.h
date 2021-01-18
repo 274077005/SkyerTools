@@ -21,4 +21,23 @@
  @param sureBlock 确定的回调
  */
 +(void)skAlerView:(NSString *)title message:(NSString *)message cancalTitle:(NSString*)cancalTitle sureTitle:(NSString*)sureTitle sureBlock:(void(^)(void))sureBlock;
+
+/**
+ UIAlertView的类方法
+ 
+ @param title title
+ @param message message
+ @param cancalTitle 退出的文字
+ */
++(void)skAlerView:(NSString *)title message:(NSString *)message cancalTitle:(NSString*)cancalTitle;
+
+/**
+ UIAlertView的类方法
+
+ @param title title
+ @param message message
+ @param sureTitle 确定titile
+ @param sureBlock 确定回调
+ */
++(void)skAlerView:(NSString *)title message:(NSString *)message  sureTitle:(NSString*)sureTitle sureBlock:(void(^)(void))sureBlock;
 @end
